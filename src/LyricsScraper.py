@@ -12,7 +12,8 @@ genius.verbose = False
 genius.remove_section_headers = True
 
 # Exclude songs with these words in their title
-genius.excluded_terms = ["(Remix)", "(Live)"]
+genius.excluded_terms = ["(Remix)", "(Live)", "(Acoustic)",
+                         "(Demo)" "Acoustic", "Demo", "Remix", "Live"]
 
 # Include hits thought to be non-songs (e.g. track lists)
 genius.skip_non_songs = True
@@ -23,7 +24,8 @@ genius.skip_non_songs = True
 
 """ Search by artist """
 
-artist = genius.search_artist("The Wonder Years", max_songs=50, sort="popularity")
+artist = genius.search_artist(
+    "The Wonder Years", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -35,7 +37,8 @@ artist.save_lyrics()
 
 """ The Front Bottoms """
 
-artist = genius.search_artist("The Front Bottoms", max_songs=50, sort="popularity")
+artist = genius.search_artist(
+    "The Front Bottoms", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -101,7 +104,8 @@ artist.save_lyrics()
 
 """ A Day to Remember """
 
-artist = genius.search_artist("A Day to Remember", max_songs=50, sort="popularity")
+artist = genius.search_artist(
+    "A Day to Remember", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -112,7 +116,8 @@ artist.save_lyrics()
 
 """ Modern Baseball """
 
-artist = genius.search_artist("Modern Baseball", max_songs=50, sort="popularity")
+artist = genius.search_artist(
+    "Modern Baseball", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -189,7 +194,8 @@ artist.save_lyrics()
 
 """ The Menzingers """
 
-artist = genius.search_artist("The Menzingers", max_songs=50, sort="popularity")
+artist = genius.search_artist(
+    "The Menzingers", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -222,7 +228,8 @@ artist.save_lyrics()
 
 """ The Story So Far """
 
-artist = genius.search_artist("The Story So Far", max_songs=50, sort="popularity")
+artist = genius.search_artist(
+    "The Story So Far", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -242,6 +249,41 @@ artist.add_song(song)
 
 artist.save_lyrics()
 
-# Others: Tiny Moving Parts, Panic! At The Disco, The Offspring,
-# My Chemical Romance, Moose Blood, Knuckle Puck
-# 20 artists, 50 songs = 1000
+""" The Offspring """
+
+artist = genius.search_artist("The Offspring", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" My Chemical Romance """
+
+artist = genius.search_artist(
+    "My Chemical Romance", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Tiny Moving Parts """
+
+artist = genius.search_artist(
+    "Tiny Moving Parts", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+#
+# # Others: Tiny Moving Parts, Panic! At The Disco, The Offspring,
+# # My Chemical Romance, Moose Blood, Knuckle Puck
+# # 20 artists, 50 songs = 1000
