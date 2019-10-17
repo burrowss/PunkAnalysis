@@ -22,180 +22,22 @@ genius.skip_non_songs = True
 # song = genius.search_song("Cardinals", artist.name)
 # print(song.lyrics)
 
-# """ Search by artist """
+""" Artist Search """
 #
 # artist = genius.search_artist(
 #     "The Wonder Years", max_songs=50, sort="popularity")
 # song = genius.search_song("", artist.name)
 # # print(artist.songs)
 #
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-#
-# """ The Front Bottoms """
-#
-# artist = genius.search_artist(
-#     "The Front Bottoms", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ Green Day """
-#
-# artist = genius.search_artist("Green Day", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ Blink-182 """
-#
-# artist = genius.search_artist("Blink-182", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ Neck Deep """
-#
-# artist = genius.search_artist("Neck Deep", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ Trophy Eyes """
-#
-# artist = genius.search_artist("Trophy Eyes", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ PUP """
-#
-# artist = genius.search_artist("PUP", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ A Day to Remember """
-#
-# artist = genius.search_artist(
-#     "A Day to Remember", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ Modern Baseball """
-#
-# artist = genius.search_artist(
-#     "Modern Baseball", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ Real Friends """
-#
-# artist = genius.search_artist("Real Friends", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ Sum 41 """
-#
-# artist = genius.search_artist("Sum 41", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ Tigers Jaw """
-#
-# artist = genius.search_artist("Tigers Jaw", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ Trash Boat """
-#
-# artist = genius.search_artist("Trash Boat", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ WSTR """
-#
-# artist = genius.search_artist("WSTR", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
-# artist.add_song(song)
-#
-# artist.save_lyrics()
-#
-# """ Brand New """
-#
-# artist = genius.search_artist("Brand New", max_songs=50, sort="popularity")
-# song = genius.search_song("", artist.name)
-# # print(artist.songs)
-#
-# """ Adding songs to artist object """
+""" Adding songs to artist object """
 # artist.add_song(song)
 #
 # artist.save_lyrics()
 
-""" The Menzingers """
+""" Discount """
 
 artist = genius.search_artist(
-    "The Menzingers", max_songs=50, sort="popularity")
+    "Discount", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -204,32 +46,22 @@ artist.add_song(song)
 
 artist.save_lyrics()
 
-""" State Champs """
-
-artist = genius.search_artist("State Champs", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" Fall Out Boy """
-
-artist = genius.search_artist("Fall Out Boy", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" The Story So Far """
+""" RVIVR """
 
 artist = genius.search_artist(
-    "The Story So Far", max_songs=50, sort="popularity")
+    "RVIVR", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" 5 Seconds of Summer """
+
+artist = genius.search_artist(
+    "5 Seconds of Summer", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -240,7 +72,272 @@ artist.save_lyrics()
 
 """ Joyce Manor """
 
-artist = genius.search_artist("Joyce Manor", max_songs=50, sort="popularity")
+artist = genius.search_artist(
+    "Joyce Manor", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Good Charlotte """
+
+artist = genius.search_artist(
+    "Good Charlotte", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" The Distillers """
+
+artist = genius.search_artist(
+    "The Distillers", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" The Ataris """
+
+artist = genius.search_artist(
+    "The Ataris", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Lagwagon """
+
+artist = genius.search_artist(
+    "Lagwagon", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" The Wonder Years """
+
+artist = genius.search_artist(
+    "The Wonder Years", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Bouncing Souls """
+
+artist = genius.search_artist(
+    "Bouncing Souls", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Yellowcard """
+
+artist = genius.search_artist(
+    "Yellowcard", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Saves the Day """
+
+artist = genius.search_artist(
+    "Saves the Day", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" The Ergs """
+
+artist = genius.search_artist(
+    "The Ergs", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Simple Plan """
+
+artist = genius.search_artist(
+    "Simple Plan", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Lifetime """
+
+artist = genius.search_artist(
+    "Lifetime", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Tsunami Bomb """
+
+artist = genius.search_artist(
+    "Tsunami Bomb", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" AFI """
+
+artist = genius.search_artist(
+    "AFI", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" MxPx """
+
+artist = genius.search_artist(
+    "MxPx", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Jimmy Eat World """
+
+artist = genius.search_artist(
+    "Jimmy Eat World", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Alkaline Trio """
+
+artist = genius.search_artist(
+    "Alkaline Trio", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" All Time Low """
+
+artist = genius.search_artist(
+    "All Time Low", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Bad Religion """
+
+artist = genius.search_artist(
+    "Bad Religion", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Rancid """
+
+artist = genius.search_artist(
+    "Rancid", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Green Day """
+
+artist = genius.search_artist(
+    "Green Day", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Sum 41 """
+
+artist = genius.search_artist(
+    "Sum 41", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" New Found Glory """
+
+artist = genius.search_artist(
+    "New Found Glory", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -251,7 +348,8 @@ artist.save_lyrics()
 
 """ The Offspring """
 
-artist = genius.search_artist("The Offspring", max_songs=50, sort="popularity")
+artist = genius.search_artist(
+    "The Offspring", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -260,10 +358,10 @@ artist.add_song(song)
 
 artist.save_lyrics()
 
-""" My Chemical Romance """
+""" Jawbreaker """
 
 artist = genius.search_artist(
-    "My Chemical Romance", max_songs=50, sort="popularity")
+    "Jawbreaker", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -272,10 +370,10 @@ artist.add_song(song)
 
 artist.save_lyrics()
 
-""" Tiny Moving Parts """
+""" NOFX """
 
 artist = genius.search_artist(
-    "Tiny Moving Parts", max_songs=50, sort="popularity")
+    "NOFX", max_songs=50, sort="popularity")
 song = genius.search_song("", artist.name)
 # print(artist.songs)
 
@@ -283,7 +381,39 @@ song = genius.search_song("", artist.name)
 artist.add_song(song)
 
 artist.save_lyrics()
-#
-# # Others: Tiny Moving Parts, Panic! At The Disco, The Offspring,
-# # My Chemical Romance, Moose Blood, Knuckle Puck
-# # 20 artists, 50 songs = 1000
+
+""" Paramore """
+
+artist = genius.search_artist(
+    "Paramore", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Blink-182 """
+
+artist = genius.search_artist(
+    "Blink-182", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
+
+""" Fall Out Boy """
+
+artist = genius.search_artist(
+    "Fall Out Boy", max_songs=50, sort="popularity")
+song = genius.search_song("", artist.name)
+# print(artist.songs)
+
+""" Adding songs to artist object """
+artist.add_song(song)
+
+artist.save_lyrics()
