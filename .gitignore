@@ -40,6 +40,7 @@ rsconnect/
 
 # API credentials
 *.ini
+*.env
 
 # May not want to commit lyrics text files
 *.txt

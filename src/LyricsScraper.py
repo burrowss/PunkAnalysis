@@ -34,173 +34,173 @@ genius.skip_non_songs = True
 #
 # artist.save_lyrics()
 
-""" Discount """
-
-artist = genius.search_artist(
-    "Discount", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" RVIVR """
-
-artist = genius.search_artist(
-    "RVIVR", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" 5 Seconds of Summer """
-
-artist = genius.search_artist(
-    "5 Seconds of Summer", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" Joyce Manor """
-
-artist = genius.search_artist(
-    "Joyce Manor", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" Good Charlotte """
-
-artist = genius.search_artist(
-    "Good Charlotte", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" The Distillers """
-
-artist = genius.search_artist(
-    "The Distillers", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" The Ataris """
-
-artist = genius.search_artist(
-    "The Ataris", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" Lagwagon """
-
-artist = genius.search_artist(
-    "Lagwagon", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" The Wonder Years """
-
-artist = genius.search_artist(
-    "The Wonder Years", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" Bouncing Souls """
-
-artist = genius.search_artist(
-    "Bouncing Souls", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" Yellowcard """
-
-artist = genius.search_artist(
-    "Yellowcard", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" Saves the Day """
-
-artist = genius.search_artist(
-    "Saves the Day", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" The Ergs """
-
-artist = genius.search_artist(
-    "The Ergs", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
-
-""" Simple Plan """
-
-artist = genius.search_artist(
-    "Simple Plan", max_songs=50, sort="popularity")
-song = genius.search_song("", artist.name)
-# print(artist.songs)
-
-""" Adding songs to artist object """
-artist.add_song(song)
-
-artist.save_lyrics()
+# """ Discount """
+#
+# artist = genius.search_artist(
+#     "Discount", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ RVIVR """
+#
+# artist = genius.search_artist(
+#     "RVIVR", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ 5 Seconds of Summer """
+#
+# artist = genius.search_artist(
+#     "5 Seconds of Summer", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ Joyce Manor """
+#
+# artist = genius.search_artist(
+#     "Joyce Manor", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ Good Charlotte """
+#
+# artist = genius.search_artist(
+#     "Good Charlotte", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ The Distillers """
+#
+# artist = genius.search_artist(
+#     "The Distillers", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ The Ataris """
+#
+# artist = genius.search_artist(
+#     "The Ataris", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ Lagwagon """
+#
+# artist = genius.search_artist(
+#     "Lagwagon", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ The Wonder Years """
+#
+# artist = genius.search_artist(
+#     "The Wonder Years", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ Bouncing Souls """
+#
+# artist = genius.search_artist(
+#     "Bouncing Souls", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ Yellowcard """
+#
+# artist = genius.search_artist(
+#     "Yellowcard", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ Saves the Day """
+#
+# artist = genius.search_artist(
+#     "Saves the Day", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ The Ergs """
+#
+# artist = genius.search_artist(
+#     "The Ergs", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
+#
+# """ Simple Plan """
+#
+# artist = genius.search_artist(
+#     "Simple Plan", max_songs=50, sort="popularity")
+# song = genius.search_song("", artist.name)
+# # print(artist.songs)
+#
+# """ Adding songs to artist object """
+# artist.add_song(song)
+#
+# artist.save_lyrics()
 
 """ Lifetime """
 
