@@ -18,16 +18,13 @@ service = ToneAnalyzerV3(
 service.set_service_url(url)
 
 # Establishing directory path
-lyrics = '../src/tone_resources/tone-example.json'
-
-
-print("\ntone() TWY Example:\n")
+lyrics = '../src/tone_resources/2008-2019_lyrics.json'
 
 final_dict = []
 
 
 i = 0
-while i < 3:
+while i < 657:
     with open(lyrics, 'r') as tone_json:
         tone = service.tone(
             tone_input=json.load(tone_json)[i]['lyrics'],
@@ -37,5 +34,5 @@ while i < 3:
         final_dict.append(tone)
     i += 1
 
-with open('tone_data.json', 'a') as output:
+with open('2008-2019_tone_data.json', 'a') as output:
     json.dump(final_dict, output)
