@@ -6,6 +6,7 @@ library(lubridate)
 library(ggplot2)
 library(dplyr)
 library(readr)
+library(tm)
 
 # Reading in the CSVs to create dataframes
 all_songs <- read.csv("~/Documents/CS_600/PunkAnalysis/src/data/all_lyrics.csv", header = TRUE)
@@ -27,7 +28,7 @@ tidy_sentences <- all_lyrics_df %>%
 tidy_words <- tidy_sentences %>%
   unnest_tokens(word, sentence)
 
-data(stop_words)
+stop_words <- get_stopwords()
 
 tidy_words <- tidy_words %>%
   anti_join(stop_words)
@@ -43,3 +44,5 @@ graph_count <- tidy_words %>%
   geom_col() +
   xlab(NULL) +
   coord_flip()
+
+plot(graph_count)
