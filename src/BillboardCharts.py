@@ -4,15 +4,15 @@ import re
 
 # ChartData(name, date=None, fetch=True, timeout=25)
 # name = billboard-200, date = 1994 to 2019 (YYYY-MM-DD)
+# test dates = 10/31/2016, 7/2/2011
 chart = billboard.ChartData(
-    'billboard-200', date='2019-12-31', fetch=True, timeout=25)
+    'billboard-200', date='2016-10-31', fetch=True, timeout=25)
 
 x = 0
 all_charts = []
 
-
 # x = all weeks from 2019 to 1994 (52 x 25) = 1300
-while x < 2:
+while x < 1:
     chart_list = []
     chart_title = []
     chart_artist = []
@@ -48,11 +48,14 @@ while x < 2:
     final_chart.append(chart_date)
 
     all_charts.append(final_chart)
+
     x += 1
-print(all_charts)
+
+# print(all_charts)
 
 album_list = []
 artist_list = []
+final_list = []
 
 lyrics = '../src/data/all_lyrics.json'
 
@@ -67,17 +70,43 @@ with open(lyrics, 'r') as lyrics_json:
 # Creates a dictionary of albums and their artists
 # 269 albums
 
-final_dict = dict(zip(album_list, artist_list))
+data_dict = dict(zip(album_list, artist_list))
+# print(data_dict)
+# print()
+
 
 # Matches albums in from charts to albums being evaluated
+# look at each album in all charts. If the second two values match the values from dictionary, add to list
 
-# Add to conjoined list
+# Issue: List of lists -> list (week) -> Entry of list (138, 'California', 'Blink-182') -> Element of entry
+# Need second two Elements of Entry to Compare, then add that ENTRY
 
-# chart_list.append(album_list[i])
-#
-# # For album in all_lyrics.json
-#     # if album in chart
-#     # add album to list
-#    i += 1
+match_dict = []
+temp_album = []
+temp_artist = []
 
-# print(chart_list)
+# Gets a dictionary of album and artist
+
+# \'([^\"]*?[^\"]*?)\' or \"([^\"]*?[^\"]*?)\"
+for week in all_charts:
+    for entry in week:
+        print(entry)
+        for item in range(len(entry)):
+            temp_album.append(entry[1])
+            temp_artist.append(entry[2])
+
+
+match_dict = dict(zip(temp_album, temp_artist))
+# print(match_dict)
+# print()
+
+# if both dictionaries match, add to final_list
+matching_list = (match_dict.items() & data_dict.items())
+print(matching_list)
+
+# Combine matching list and entry of all_charts (level 2) for ranking. Add to last list
+for entry in matching_list:
+    for item in range(len(entry)):
+        if (entry[0] and entry[1]):
+            print(item)
+# print(final_list)
