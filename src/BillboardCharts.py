@@ -1,6 +1,9 @@
 import billboard
 import json
 import re
+import csv
+""" Program used to scrape popularity data (Billboard 200),
+find matches, and retrieve the rankings. """
 
 # ChartData(name, date=None, fetch=True, timeout=25)
 # name = billboard-200, date = 1994 to 2019 (YYYY-MM-DD)
@@ -12,7 +15,7 @@ x = 0
 all_charts = []
 
 # x = all weeks from 2019 to 1994 (52 x 25) = 1300
-while x < 1:
+while x < 2:
     chart_list = []
     chart_title = []
     chart_artist = []
@@ -51,11 +54,8 @@ while x < 1:
 
     x += 1
 
-# print(all_charts)
-
 album_list = []
 artist_list = []
-final_list = []
 
 lyrics = '../src/data/all_lyrics.json'
 
@@ -67,46 +67,45 @@ with open(lyrics, 'r') as lyrics_json:
         album_list.append(data[entry]['album'])
         artist_list.append(data[entry]['artist'])
 
-# Creates a dictionary of albums and their artists
-# 269 albums
+# Creates a dictionary of Pop-punk albums and their artists
 
 data_dict = dict(zip(album_list, artist_list))
-# print(data_dict)
-# print()
-
 
 # Matches albums in from charts to albums being evaluated
-# look at each album in all charts. If the second two values match the values from dictionary, add to list
 
-# Issue: List of lists -> list (week) -> Entry of list (138, 'California', 'Blink-182') -> Element of entry
+# all_charts = List of lists -> list (week) ->
+# -> Entry of list (138, 'California', 'Blink-182') -> Element of entry
 # Need second two Elements of Entry to Compare, then add that ENTRY
 
 match_dict = []
 temp_album = []
 temp_artist = []
+ranking = []
+final_list = []
 
-# Gets a dictionary of album and artist
-
-# \'([^\"]*?[^\"]*?)\' or \"([^\"]*?[^\"]*?)\"
+# Gets a dictionary of album and artist from Billboard 200
 for week in all_charts:
     for entry in week:
-        print(entry)
+        ranking.append(entry)
         for item in range(len(entry)):
             temp_album.append(entry[1])
             temp_artist.append(entry[2])
 
-
+# Dictionary of Billboard 200
 match_dict = dict(zip(temp_album, temp_artist))
-# print(match_dict)
-# print()
 
-# if both dictionaries match, add to final_list
-matching_list = (match_dict.items() & data_dict.items())
-print(matching_list)
+# if both dictionaries match, add to matching_list (album and artist)
+matching_list = dict(match_dict.items() & data_dict.items())
 
-# Combine matching list and entry of all_charts (level 2) for ranking. Add to last list
-for entry in matching_list:
-    for item in range(len(entry)):
-        if (entry[0] and entry[1]):
-            print(item)
-# print(final_list)
+# Gets the ranking/original list for matching songs and date
+for entry in ranking:
+    for match in matching_list:
+        if (match in entry):
+            final_list.append(entry)
+
+final_list.append(ranking[-1])
+
+# Extra? quoting=csv.QUOTE_ALL
+with open("../src/data/AlbumRankings.csv", 'w') as ranking_file:
+    wr = csv.writer(ranking_file, delimiter='\n')
+    wr.writerow(final_list)
