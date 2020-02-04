@@ -2,6 +2,8 @@ import billboard
 import json
 import re
 import csv
+from dateutil.parser import parse
+
 """ Program used to scrape popularity data (Billboard 200),
 find matches, and retrieve the rankings. """
 
@@ -53,7 +55,7 @@ while x < 2:
     all_charts.append(final_chart)
 
     x += 1
-
+# print(all_charts)
 album_list = []
 artist_list = []
 
@@ -76,6 +78,24 @@ data_dict = dict(zip(album_list, artist_list))
 # all_charts = List of lists -> list (week) ->
 # -> Entry of list (138, 'California', 'Blink-182') -> Element of entry
 # Need second two Elements of Entry to Compare, then add that ENTRY
+
+
+"""
+Function that returns whether the string can be interpreted as a date.
+
+:param string: str, string to check for date
+:param fuzzy: bool, ignore unknown tokens in string if True
+"""
+
+
+def is_date(string, fuzzy=False):
+    try:
+        parse(string, fuzzy=fuzzy)
+        return True
+
+    except ValueError:
+        return False
+
 
 match_dict = []
 temp_album = []
@@ -101,11 +121,14 @@ matching_list = dict(match_dict.items() & data_dict.items())
 for entry in ranking:
     for match in matching_list:
         if (match in entry):
+            entry = str(entry).strip("'()'")
+            entry = entry.replace("'", '')
             final_list.append(entry)
+    if(is_date(str(entry))):
+        final_list.append(str(entry))
 
-final_list.append(ranking[-1])
+# print(final_list)
 
-# Extra? quoting=csv.QUOTE_ALL
 with open("../src/data/AlbumRankings.csv", 'w') as ranking_file:
     wr = csv.writer(ranking_file, delimiter='\n')
     wr.writerow(final_list)
