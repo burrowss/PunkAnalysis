@@ -11,13 +11,14 @@ find matches, and retrieve the rankings. """
 # name = billboard-200, date = 1994 to 2019 (YYYY-MM-DD)
 # test dates = 10/31/2016, 7/2/2011
 chart = billboard.ChartData(
-    'billboard-200', date='2016-10-31', fetch=True, timeout=25)
+    'billboard-200', date='2019-12-31', fetch=True, timeout=25)
 
 x = 0
 all_charts = []
 
 # x = all weeks from 2019 to 1994 (52 x 25) = 1300
-while x < 2:
+# Need to run this a couple of years at a time so it doesnt timeout
+while chart.date >= '1994-01-01':
     chart_list = []
     chart_title = []
     chart_artist = []
