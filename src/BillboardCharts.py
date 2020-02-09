@@ -3,7 +3,6 @@ import json
 import re
 import csv
 from dateutil.parser import parse
-
 """ Program used to scrape popularity data (Billboard 200),
 find matches, and retrieve the rankings. """
 
@@ -11,13 +10,14 @@ find matches, and retrieve the rankings. """
 # name = billboard-200, date = 1994 to 2019 (YYYY-MM-DD)
 # test dates = 10/31/2016, 7/2/2011
 chart = billboard.ChartData(
-    'billboard-200', date='2019-12-31', fetch=True, timeout=25)
-
+    'billboard-200', date='1995-01-01', fetch=True, timeout=25)
+#print(chart)
 x = 0
 all_charts = []
 
-# x = all weeks from 2019 to 1994 (52 x 25) = 1300
+# all weeks from 2019 to 1994 (52 x 25) = 1300
 # Need to run this a couple of years at a time so it doesnt timeout
+
 while chart.date >= '1994-01-01':
     chart_list = []
     chart_title = []
@@ -25,7 +25,6 @@ while chart.date >= '1994-01-01':
     chart_ranking = []
     final_chart = []
 
-    chart = billboard.ChartData('billboard-200', chart.previousDate)
     for line in chart:
         chart_list.append(str(line))
 
@@ -55,7 +54,8 @@ while chart.date >= '1994-01-01':
 
     all_charts.append(final_chart)
 
-    x += 1
+    chart = billboard.ChartData('billboard-200', chart.previousDate)
+
 # print(all_charts)
 album_list = []
 artist_list = []
@@ -72,15 +72,16 @@ with open(lyrics, 'r') as lyrics_json:
 
 # Creates a dictionary of Pop-punk albums and their artists
 
-data_dict = dict(zip(album_list, artist_list))
+data_list = list(zip(album_list, artist_list))
+data_list = list(set(data_list))
 
+# print(data_dict)
+# print()
 # Matches albums in from charts to albums being evaluated
 
 # all_charts = List of lists -> list (week) ->
 # -> Entry of list (138, 'California', 'Blink-182') -> Element of entry
 # Need second two Elements of Entry to Compare, then add that ENTRY
-
-
 """
 Function that returns whether the string can be interpreted as a date.
 
@@ -103,33 +104,47 @@ temp_album = []
 temp_artist = []
 ranking = []
 final_list = []
+data_strings = []
+match_strings = []
+found_matches = []
+ranking_list = []
 
-# Gets a dictionary of album and artist from Billboard 200
+# Gets a list of album and artist from Billboard 200
 for week in all_charts:
     for entry in week:
-        ranking.append(entry)
-        for item in range(len(entry)):
-            temp_album.append(entry[1])
-            temp_artist.append(entry[2])
+        ranking.append(str(entry))
+        temp_album.append(entry[1])
+        temp_artist.append(entry[2])
 
-# Dictionary of Billboard 200
-match_dict = dict(zip(temp_album, temp_artist))
+# List of Billboard 200
+match_list = list(zip(temp_album, temp_artist))
 
-# if both dictionaries match, add to matching_list (album and artist)
-matching_list = dict(match_dict.items() & data_dict.items())
+# Lower case for comparison
+for element in data_list:
+    data_strings.append(str(element).lower())
 
+for element in match_list:
+    match_strings.append(str(element).lower())
+
+# Finding matches
+for element in data_strings:
+    if element in match_strings:
+        found_matches.append(element)
+
+# Make ranking strings for comparing to matches
 # Gets the ranking/original list for matching songs and date
+# Date of album ranking is the date after the album (or final album if multiple in one week)
 for entry in ranking:
-    for match in matching_list:
+    entry = entry.lower()
+    for match in found_matches:
+        match = match.strip("'()'")
         if (match in entry):
-            entry = str(entry).strip("'()'")
-            entry = entry.replace("'", '')
+            entry = entry.strip("'()'")
             final_list.append(entry)
-    if(is_date(str(entry))):
+    if (is_date(str(entry))):
         final_list.append(str(entry))
 
-# print(final_list)
-
-with open("../src/data/AlbumRankings.csv", 'w') as ranking_file:
+# Writing the final list to a CSV
+with open("../src/data/1994_AlbumRankings.csv", 'w') as ranking_file:
     wr = csv.writer(ranking_file, delimiter='\n')
     wr.writerow(final_list)
