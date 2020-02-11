@@ -18,21 +18,31 @@ service = ToneAnalyzerV3(
 service.set_service_url(url)
 
 # Establishing directory path
-lyrics = '../src/data/2008-2019_lyrics.json'
+lyrics = '../src/data/1994-2007_lyrics.json'
 
 final_dict = []
+counter = 0
 
 
+with open(lyrics, 'r') as lyrics_json:
+    song_count = json.load(lyrics_json)
+
+for line in song_count:
+    counter += 1
+
+# print(counter)
 i = 0
-while i < 657:
-    with open(lyrics, 'r') as tone_json:
-        tone = service.tone(
-            tone_input=json.load(tone_json)[i]['lyrics'],
-            content_type='text/plain',
-            sentences=True).get_result()
 
-        final_dict.append(tone)
+while i < counter:
+    with open(lyrics, 'r') as lyrics_json:
+            tone = service.tone(
+                tone_input=json.load(lyrics_json)[i]['lyrics'],
+                content_type='text/plain',
+                sentences=False).get_result()
+
+            final_dict.append(tone)
     i += 1
+# print(final_dict)
 
-with open('2008-2019_tone_data.json', 'a') as output:
+with open('1994-2007_tone_data_SONGSONLY.json', 'a') as output:
     json.dump(final_dict, output)
