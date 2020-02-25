@@ -53,7 +53,7 @@ songs_2018 <- all_songs %>% filter((date >= "2018-01-01") & (date < "2019-01-01"
 songs_2019 <- all_songs %>% filter((date > "2018-01-01"))
 
 # Late range: 2008 - 2019
-late_songs <- all_songs %>% filter((date >= "2008-01-01") & (date < "2019-01-01"))
+late_songs <- all_songs %>% filter(date >= "2008-01-01")
 
 # Creating yearly dataframes - Early
 df_1994 <- tibble(line = 1:49, text = songs_1994$lyrics)
