@@ -18,7 +18,7 @@ service = ToneAnalyzerV3(
 service.set_service_url(url)
 
 # Establishing directory path
-lyrics = '../src/data/1994-2007_lyrics.json'
+lyrics = '../src/data/all_lyrics.json'
 
 final_dict = []
 counter = 0
