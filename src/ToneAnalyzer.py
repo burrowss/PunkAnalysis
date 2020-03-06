@@ -18,6 +18,7 @@ service = ToneAnalyzerV3(
 service.set_service_url(url)
 
 # Establishing directory path
+# Make sure this is sorted by date!
 lyrics = '../src/data/all_lyrics.json'
 
 final_dict = []
@@ -44,5 +45,5 @@ while i < counter:
     i += 1
 # print(final_dict)
 
-with open('1994-2007_tone_data_SONGSONLY.json', 'a') as output:
+with open('all_tone_data.json', 'a') as output:
     json.dump(final_dict, output)
