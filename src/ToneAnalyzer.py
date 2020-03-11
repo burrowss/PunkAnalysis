@@ -13,7 +13,7 @@ with open("ibm-url.txt", "r") as file:
 # Authenticates and sets service to ToneAnalyzer
 authenticator = IAMAuthenticator(token)
 service = ToneAnalyzerV3(
-    version='2017-09-21',
+    version='2016-05-19',
     authenticator=authenticator)
 service.set_service_url(url)
 
@@ -45,5 +45,5 @@ while i < counter:
     i += 1
 # print(final_dict)
 
-with open('all_tone_data.json', 'a') as output:
+with open('all_tone_data_v2016.json', 'a') as output:
     json.dump(final_dict, output)
