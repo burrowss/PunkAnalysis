@@ -73,6 +73,21 @@ avg_extraversion_94_v2016 <- mean(tone_1994_v2016$extraversion_score)
 avg_agreeableness_94_v2016 <- mean(tone_1994_v2016$agreeableness_score)
 avg_emotional_range_94_v2016 <- mean(tone_1994_v2016$emotional_range_score)
 
+# SD 1994 Tones
+sd_anger_94_v2016 <- sd(tone_1994_v2016$anger_score)
+sd_disgust_94_v2016 <- sd(tone_1994_v2016$disgust_score)
+sd_fear_94_v2016 <- sd(tone_1994_v2016$fear_score)
+sd_joy_94_v2016 <- sd(tone_1994_v2016$joy_score)
+sd_sadness_94_v2016 <- sd(tone_1994_v2016$sadness_score)
+sd_analytical_94_v2016 <- sd(tone_1994_v2016$analytical_score)
+sd_confident_94_v2016 <- sd(tone_1994_v2016$confident_score)
+sd_tentative_94_v2016 <- sd(tone_1994_v2016$tentative_score)
+sd_openness_94_v2016 <- sd(tone_1994_v2016$openness_score)
+sd_conscientiousness_94_v2016 <- sd(tone_1994_v2016$conscientiousness_score)
+sd_extraversion_94_v2016 <- sd(tone_1994_v2016$extraversion_score)
+sd_agreeableness_94_v2016 <- sd(tone_1994_v2016$agreeableness_score)
+sd_emotional_range_94_v2016 <- sd(tone_1994_v2016$emotional_range_score)
+
 # Average 1995 Tones
 avg_anger_95_v2016 <- mean(tone_1995_v2016$anger_score)
 avg_disgust_95_v2016 <- mean(tone_1995_v2016$disgust_score)
@@ -87,6 +102,21 @@ avg_conscientiousness_95_v2016 <- mean(tone_1995_v2016$conscientiousness_score)
 avg_extraversion_95_v2016 <- mean(tone_1995_v2016$extraversion_score)
 avg_agreeableness_95_v2016 <- mean(tone_1995_v2016$agreeableness_score)
 avg_emotional_range_95_v2016 <- mean(tone_1995_v2016$emotional_range_score)
+
+# SD 1995 Tones
+sd_anger_95_v2016 <- sd(tone_1995_v2016$anger_score)
+sd_disgust_95_v2016 <- sd(tone_1995_v2016$disgust_score)
+sd_fear_95_v2016 <- sd(tone_1995_v2016$fear_score)
+sd_joy_95_v2016 <- sd(tone_1995_v2016$joy_score)
+sd_sadness_95_v2016 <- sd(tone_1995_v2016$sadness_score)
+sd_analytical_95_v2016 <- sd(tone_1995_v2016$analytical_score)
+sd_confident_95_v2016 <- sd(tone_1995_v2016$confident_score)
+sd_tentative_95_v2016 <- sd(tone_1995_v2016$tentative_score)
+sd_openness_95_v2016 <- sd(tone_1995_v2016$openness_score)
+sd_conscientiousness_95_v2016 <- sd(tone_1995_v2016$conscientiousness_score)
+sd_extraversion_95_v2016 <- sd(tone_1995_v2016$extraversion_score)
+sd_agreeableness_95_v2016 <- sd(tone_1995_v2016$agreeableness_score)
+sd_emotional_range_95_v2016 <- sd(tone_1995_v2016$emotional_range_score)
 
 # Average 1996 Tones
 avg_anger_96_v2016 <- mean(tone_1996_v2016$anger_score)
@@ -103,6 +133,21 @@ avg_extraversion_96_v2016 <- mean(tone_1996_v2016$extraversion_score)
 avg_agreeableness_96_v2016 <- mean(tone_1996_v2016$agreeableness_score)
 avg_emotional_range_96_v2016 <- mean(tone_1996_v2016$emotional_range_score)
 
+# SD 1996 Tones
+sd_anger_96_v2016 <- sd(tone_1996_v2016$anger_score)
+sd_disgust_96_v2016 <- sd(tone_1996_v2016$disgust_score)
+sd_fear_96_v2016 <- sd(tone_1996_v2016$fear_score)
+sd_joy_96_v2016 <- sd(tone_1996_v2016$joy_score)
+sd_sadness_96_v2016 <- sd(tone_1996_v2016$sadness_score)
+sd_analytical_96_v2016 <- sd(tone_1996_v2016$analytical_score)
+sd_confident_96_v2016 <- sd(tone_1996_v2016$confident_score)
+sd_tentative_96_v2016 <- sd(tone_1996_v2016$tentative_score)
+sd_openness_96_v2016 <- sd(tone_1996_v2016$openness_score)
+sd_conscientiousness_96_v2016 <- sd(tone_1996_v2016$conscientiousness_score)
+sd_extraversion_96_v2016 <- sd(tone_1996_v2016$extraversion_score)
+sd_agreeableness_96_v2016 <- sd(tone_1996_v2016$agreeableness_score)
+sd_emotional_range_96_v2016 <- sd(tone_1996_v2016$emotional_range_score)
+
 # Average 1997 Tones
 avg_anger_97_v2016 <- mean(tone_1997_v2016$anger_score)
 avg_disgust_97_v2016 <- mean(tone_1997_v2016$disgust_score)
@@ -117,6 +162,21 @@ avg_conscientiousness_97_v2016 <- mean(tone_1997_v2016$conscientiousness_score)
 avg_extraversion_97_v2016 <- mean(tone_1997_v2016$extraversion_score)
 avg_agreeableness_97_v2016 <- mean(tone_1997_v2016$agreeableness_score)
 avg_emotional_range_97_v2016 <- mean(tone_1997_v2016$emotional_range_score)
+
+# SD 1997 Tones
+sd_anger_97_v2016 <- sd(tone_1997_v2016$anger_score)
+sd_disgust_97_v2016 <- sd(tone_1997_v2016$disgust_score)
+sd_fear_97_v2016 <- sd(tone_1997_v2016$fear_score)
+sd_joy_97_v2016 <- sd(tone_1997_v2016$joy_score)
+sd_sadness_97_v2016 <- sd(tone_1997_v2016$sadness_score)
+sd_analytical_97_v2016 <- sd(tone_1997_v2016$analytical_score)
+sd_confident_97_v2016 <- sd(tone_1997_v2016$confident_score)
+sd_tentative_97_v2016 <- sd(tone_1997_v2016$tentative_score)
+sd_openness_97_v2016 <- sd(tone_1997_v2016$openness_score)
+sd_conscientiousness_97_v2016 <- sd(tone_1997_v2016$conscientiousness_score)
+sd_extraversion_97_v2016 <- sd(tone_1997_v2016$extraversion_score)
+sd_agreeableness_97_v2016 <- sd(tone_1997_v2016$agreeableness_score)
+sd_emotional_range_97_v2016 <- sd(tone_1997_v2016$emotional_range_score)
 
 # Average 1998 Tones
 avg_anger_98_v2016 <- mean(tone_1998_v2016$anger_score)
@@ -133,6 +193,20 @@ avg_extraversion_98_v2016 <- mean(tone_1998_v2016$extraversion_score)
 avg_agreeableness_98_v2016 <- mean(tone_1998_v2016$agreeableness_score)
 avg_emotional_range_98_v2016 <- mean(tone_1998_v2016$emotional_range_score)
 
+# SD 1998 Tones
+sd_anger_98_v2016 <- sd(tone_1998_v2016$anger_score)
+sd_disgust_98_v2016 <- sd(tone_1998_v2016$disgust_score)
+sd_fear_98_v2016 <- sd(tone_1998_v2016$fear_score)
+sd_joy_98_v2016 <- sd(tone_1998_v2016$joy_score)
+sd_sadness_98_v2016 <- sd(tone_1998_v2016$sadness_score)
+sd_analytical_98_v2016 <- sd(tone_1998_v2016$analytical_score)
+sd_confident_98_v2016 <- sd(tone_1998_v2016$confident_score)
+sd_tentative_98_v2016 <- sd(tone_1998_v2016$tentative_score)
+sd_openness_98_v2016 <- sd(tone_1998_v2016$openness_score)
+sd_conscientiousness_98_v2016 <- sd(tone_1998_v2016$conscientiousness_score)
+sd_extraversion_98_v2016 <- sd(tone_1998_v2016$extraversion_score)
+sd_agreeableness_98_v2016 <- sd(tone_1998_v2016$agreeableness_score)
+sd_emotional_range_98_v2016 <- sd(tone_1998_v2016$emotional_range_score)
 
 # Average 1999 Tones
 avg_anger_99_v2016 <- mean(tone_1999_v2016$anger_score)
@@ -149,6 +223,21 @@ avg_extraversion_99_v2016 <- mean(tone_1999_v2016$extraversion_score)
 avg_agreeableness_99_v2016 <- mean(tone_1999_v2016$agreeableness_score)
 avg_emotional_range_99_v2016 <- mean(tone_1999_v2016$emotional_range_score)
 
+# SD 1999 Tones
+sd_anger_99_v2016 <- sd(tone_1999_v2016$anger_score)
+sd_disgust_99_v2016 <- sd(tone_1999_v2016$disgust_score)
+sd_fear_99_v2016 <- sd(tone_1999_v2016$fear_score)
+sd_joy_99_v2016 <- sd(tone_1999_v2016$joy_score)
+sd_sadness_99_v2016 <- sd(tone_1999_v2016$sadness_score)
+sd_analytical_99_v2016 <- sd(tone_1999_v2016$analytical_score)
+sd_confident_99_v2016 <- sd(tone_1999_v2016$confident_score)
+sd_tentative_99_v2016 <- sd(tone_1999_v2016$tentative_score)
+sd_openness_99_v2016 <- sd(tone_1999_v2016$openness_score)
+sd_conscientiousness_99_v2016 <- sd(tone_1999_v2016$conscientiousness_score)
+sd_extraversion_99_v2016 <- sd(tone_1999_v2016$extraversion_score)
+sd_agreeableness_99_v2016 <- sd(tone_1999_v2016$agreeableness_score)
+sd_emotional_range_99_v2016 <- sd(tone_1999_v2016$emotional_range_score)
+
 # Average 2000 Tones
 avg_anger_00_v2016 <- mean(tone_2000_v2016$anger_score)
 avg_disgust_00_v2016 <- mean(tone_2000_v2016$disgust_score)
@@ -163,6 +252,21 @@ avg_conscientiousness_00_v2016 <- mean(tone_2000_v2016$conscientiousness_score)
 avg_extraversion_00_v2016 <- mean(tone_2000_v2016$extraversion_score)
 avg_agreeableness_00_v2016 <- mean(tone_2000_v2016$agreeableness_score)
 avg_emotional_range_00_v2016 <- mean(tone_2000_v2016$emotional_range_score)
+
+# SD 2000 Tones
+sd_anger_00_v2016 <- sd(tone_2000_v2016$anger_score)
+sd_disgust_00_v2016 <- sd(tone_2000_v2016$disgust_score)
+sd_fear_00_v2016 <- sd(tone_2000_v2016$fear_score)
+sd_joy_00_v2016 <- sd(tone_2000_v2016$joy_score)
+sd_sadness_00_v2016 <- sd(tone_2000_v2016$sadness_score)
+sd_analytical_00_v2016 <- sd(tone_2000_v2016$analytical_score)
+sd_confident_00_v2016 <- sd(tone_2000_v2016$confident_score)
+sd_tentative_00_v2016 <- sd(tone_2000_v2016$tentative_score)
+sd_openness_00_v2016 <- sd(tone_2000_v2016$openness_score)
+sd_conscientiousness_00_v2016 <- sd(tone_2000_v2016$conscientiousness_score)
+sd_extraversion_00_v2016 <- sd(tone_2000_v2016$extraversion_score)
+sd_agreeableness_00_v2016 <- sd(tone_2000_v2016$agreeableness_score)
+sd_emotional_range_00_v2016 <- sd(tone_2000_v2016$emotional_range_score)
 
 # Average 2001 Tones
 avg_anger_01_v2016 <- mean(tone_2001_v2016$anger_score)
@@ -179,6 +283,21 @@ avg_extraversion_01_v2016 <- mean(tone_2001_v2016$extraversion_score)
 avg_agreeableness_01_v2016 <- mean(tone_2001_v2016$agreeableness_score)
 avg_emotional_range_01_v2016 <- mean(tone_2001_v2016$emotional_range_score)
 
+# SD 2001 Tones
+sd_anger_01_v2016 <- sd(tone_2001_v2016$anger_score)
+sd_disgust_01_v2016 <- sd(tone_2001_v2016$disgust_score)
+sd_fear_01_v2016 <- sd(tone_2001_v2016$fear_score)
+sd_joy_01_v2016 <- sd(tone_2001_v2016$joy_score)
+sd_sadness_01_v2016 <- sd(tone_2001_v2016$sadness_score)
+sd_analytical_01_v2016 <- sd(tone_2001_v2016$analytical_score)
+sd_confident_01_v2016 <- sd(tone_2001_v2016$confident_score)
+sd_tentative_01_v2016 <- sd(tone_2001_v2016$tentative_score)
+sd_openness_01_v2016 <- sd(tone_2001_v2016$openness_score)
+sd_conscientiousness_01_v2016 <- sd(tone_2001_v2016$conscientiousness_score)
+sd_extraversion_01_v2016 <- sd(tone_2001_v2016$extraversion_score)
+sd_agreeableness_01_v2016 <- sd(tone_2001_v2016$agreeableness_score)
+sd_emotional_range_01_v2016 <- sd(tone_2001_v2016$emotional_range_score)
+
 # Average 2002 Tones
 avg_anger_02_v2016 <- mean(tone_2002_v2016$anger_score)
 avg_disgust_02_v2016 <- mean(tone_2002_v2016$disgust_score)
@@ -193,6 +312,21 @@ avg_conscientiousness_02_v2016 <- mean(tone_2002_v2016$conscientiousness_score)
 avg_extraversion_02_v2016 <- mean(tone_2002_v2016$extraversion_score)
 avg_agreeableness_02_v2016 <- mean(tone_2002_v2016$agreeableness_score)
 avg_emotional_range_02_v2016 <- mean(tone_2002_v2016$emotional_range_score)
+
+# SD 2002 Tones
+sd_anger_02_v2016 <- sd(tone_2002_v2016$anger_score)
+sd_disgust_02_v2016 <- sd(tone_2002_v2016$disgust_score)
+sd_fear_02_v2016 <- sd(tone_2002_v2016$fear_score)
+sd_joy_02_v2016 <- sd(tone_2002_v2016$joy_score)
+sd_sadness_02_v2016 <- sd(tone_2002_v2016$sadness_score)
+sd_analytical_02_v2016 <- sd(tone_2002_v2016$analytical_score)
+sd_confident_02_v2016 <- sd(tone_2002_v2016$confident_score)
+sd_tentative_02_v2016 <- sd(tone_2002_v2016$tentative_score)
+sd_openness_02_v2016 <- sd(tone_2002_v2016$openness_score)
+sd_conscientiousness_02_v2016 <- sd(tone_2002_v2016$conscientiousness_score)
+sd_extraversion_02_v2016 <- sd(tone_2002_v2016$extraversion_score)
+sd_agreeableness_02_v2016 <- sd(tone_2002_v2016$agreeableness_score)
+sd_emotional_range_02_v2016 <- sd(tone_2002_v2016$emotional_range_score)
 
 # Average 2003 Tones
 avg_anger_03_v2016 <- mean(tone_2003_v2016$anger_score)
@@ -209,6 +343,21 @@ avg_extraversion_03_v2016 <- mean(tone_2003_v2016$extraversion_score)
 avg_agreeableness_03_v2016 <- mean(tone_2003_v2016$agreeableness_score)
 avg_emotional_range_03_v2016 <- mean(tone_2003_v2016$emotional_range_score)
 
+# SD 2003 Tones
+sd_anger_03_v2016 <- sd(tone_2003_v2016$anger_score)
+sd_disgust_03_v2016 <- sd(tone_2003_v2016$disgust_score)
+sd_fear_03_v2016 <- sd(tone_2003_v2016$fear_score)
+sd_joy_03_v2016 <- sd(tone_2003_v2016$joy_score)
+sd_sadness_03_v2016 <- sd(tone_2003_v2016$sadness_score)
+sd_analytical_03_v2016 <- sd(tone_2003_v2016$analytical_score)
+sd_confident_03_v2016 <- sd(tone_2003_v2016$confident_score)
+sd_tentative_03_v2016 <- sd(tone_2003_v2016$tentative_score)
+sd_openness_03_v2016 <- sd(tone_2003_v2016$openness_score)
+sd_conscientiousness_03_v2016 <- sd(tone_2003_v2016$conscientiousness_score)
+sd_extraversion_03_v2016 <- sd(tone_2003_v2016$extraversion_score)
+sd_agreeableness_03_v2016 <- sd(tone_2003_v2016$agreeableness_score)
+sd_emotional_range_03_v2016 <- sd(tone_2003_v2016$emotional_range_score)
+
 # Average 2004 Tones
 avg_anger_04_v2016 <- mean(tone_2004_v2016$anger_score)
 avg_disgust_04_v2016 <- mean(tone_2004_v2016$disgust_score)
@@ -223,6 +372,21 @@ avg_conscientiousness_04_v2016 <- mean(tone_2004_v2016$conscientiousness_score)
 avg_extraversion_04_v2016 <- mean(tone_2004_v2016$extraversion_score)
 avg_agreeableness_04_v2016 <- mean(tone_2004_v2016$agreeableness_score)
 avg_emotional_range_04_v2016 <- mean(tone_2004_v2016$emotional_range_score)
+
+# SD 2004 Tones
+sd_anger_04_v2016 <- sd(tone_2004_v2016$anger_score)
+sd_disgust_04_v2016 <- sd(tone_2004_v2016$disgust_score)
+sd_fear_04_v2016 <- sd(tone_2004_v2016$fear_score)
+sd_joy_04_v2016 <- sd(tone_2004_v2016$joy_score)
+sd_sadness_04_v2016 <- sd(tone_2004_v2016$sadness_score)
+sd_analytical_04_v2016 <- sd(tone_2004_v2016$analytical_score)
+sd_confident_04_v2016 <- sd(tone_2004_v2016$confident_score)
+sd_tentative_04_v2016 <- sd(tone_2004_v2016$tentative_score)
+sd_openness_04_v2016 <- sd(tone_2004_v2016$openness_score)
+sd_conscientiousness_04_v2016 <- sd(tone_2004_v2016$conscientiousness_score)
+sd_extraversion_04_v2016 <- sd(tone_2004_v2016$extraversion_score)
+sd_agreeableness_04_v2016 <- sd(tone_2004_v2016$agreeableness_score)
+sd_emotional_range_04_v2016 <- sd(tone_2004_v2016$emotional_range_score)
 
 # Average 2005 Tones
 avg_anger_05_v2016 <- mean(tone_2005_v2016$anger_score)
@@ -239,6 +403,21 @@ avg_extraversion_05_v2016 <- mean(tone_2005_v2016$extraversion_score)
 avg_agreeableness_05_v2016 <- mean(tone_2005_v2016$agreeableness_score)
 avg_emotional_range_05_v2016 <- mean(tone_2005_v2016$emotional_range_score)
 
+# SD 2005 Tones
+sd_anger_05_v2016 <- sd(tone_2005_v2016$anger_score)
+sd_disgust_05_v2016 <- sd(tone_2005_v2016$disgust_score)
+sd_fear_05_v2016 <- sd(tone_2005_v2016$fear_score)
+sd_joy_05_v2016 <- sd(tone_2005_v2016$joy_score)
+sd_sadness_05_v2016 <- sd(tone_2005_v2016$sadness_score)
+sd_analytical_05_v2016 <- sd(tone_2005_v2016$analytical_score)
+sd_confident_05_v2016 <- sd(tone_2005_v2016$confident_score)
+sd_tentative_05_v2016 <- sd(tone_2005_v2016$tentative_score)
+sd_openness_05_v2016 <- sd(tone_2005_v2016$openness_score)
+sd_conscientiousness_05_v2016 <- sd(tone_2005_v2016$conscientiousness_score)
+sd_extraversion_05_v2016 <- sd(tone_2005_v2016$extraversion_score)
+sd_agreeableness_05_v2016 <- sd(tone_2005_v2016$agreeableness_score)
+sd_emotional_range_05_v2016 <- sd(tone_2005_v2016$emotional_range_score)
+
 # Average 2006 Tones
 avg_anger_06_v2016 <- mean(tone_2006_v2016$anger_score)
 avg_disgust_06_v2016 <- mean(tone_2006_v2016$disgust_score)
@@ -253,6 +432,21 @@ avg_conscientiousness_06_v2016 <- mean(tone_2006_v2016$conscientiousness_score)
 avg_extraversion_06_v2016 <- mean(tone_2006_v2016$extraversion_score)
 avg_agreeableness_06_v2016 <- mean(tone_2006_v2016$agreeableness_score)
 avg_emotional_range_06_v2016 <- mean(tone_2006_v2016$emotional_range_score)
+
+# SD 2006 Tones
+sd_anger_06_v2016 <- sd(tone_2006_v2016$anger_score)
+sd_disgust_06_v2016 <- sd(tone_2006_v2016$disgust_score)
+sd_fear_06_v2016 <- sd(tone_2006_v2016$fear_score)
+sd_joy_06_v2016 <- sd(tone_2006_v2016$joy_score)
+sd_sadness_06_v2016 <- sd(tone_2006_v2016$sadness_score)
+sd_analytical_06_v2016 <- sd(tone_2006_v2016$analytical_score)
+sd_confident_06_v2016 <- sd(tone_2006_v2016$confident_score)
+sd_tentative_06_v2016 <- sd(tone_2006_v2016$tentative_score)
+sd_openness_06_v2016 <- sd(tone_2006_v2016$openness_score)
+sd_conscientiousness_06_v2016 <- sd(tone_2006_v2016$conscientiousness_score)
+sd_extraversion_06_v2016 <- sd(tone_2006_v2016$extraversion_score)
+sd_agreeableness_06_v2016 <- sd(tone_2006_v2016$agreeableness_score)
+sd_emotional_range_06_v2016 <- sd(tone_2006_v2016$emotional_range_score)
 
 # Average 2007 Tones
 avg_anger_07_v2016 <- mean(tone_2007_v2016$anger_score)
@@ -269,6 +463,21 @@ avg_extraversion_07_v2016 <- mean(tone_2007_v2016$extraversion_score)
 avg_agreeableness_07_v2016 <- mean(tone_2007_v2016$agreeableness_score)
 avg_emotional_range_07_v2016 <- mean(tone_2007_v2016$emotional_range_score)
 
+# SD 2007 Tones
+sd_anger_07_v2016 <- sd(tone_2007_v2016$anger_score)
+sd_disgust_07_v2016 <- sd(tone_2007_v2016$disgust_score)
+sd_fear_07_v2016 <- sd(tone_2007_v2016$fear_score)
+sd_joy_07_v2016 <- sd(tone_2007_v2016$joy_score)
+sd_sadness_07_v2016 <- sd(tone_2007_v2016$sadness_score)
+sd_analytical_07_v2016 <- sd(tone_2007_v2016$analytical_score)
+sd_confident_07_v2016 <- sd(tone_2007_v2016$confident_score)
+sd_tentative_07_v2016 <- sd(tone_2007_v2016$tentative_score)
+sd_openness_07_v2016 <- sd(tone_2007_v2016$openness_score)
+sd_conscientiousness_07_v2016 <- sd(tone_2007_v2016$conscientiousness_score)
+sd_extraversion_07_v2016 <- sd(tone_2007_v2016$extraversion_score)
+sd_agreeableness_07_v2016 <- sd(tone_2007_v2016$agreeableness_score)
+sd_emotional_range_07_v2016 <- sd(tone_2007_v2016$emotional_range_score)
+
 # Average 2008 Tones
 avg_anger_08_v2016 <- mean(tone_2008_v2016$anger_score)
 avg_disgust_08_v2016 <- mean(tone_2008_v2016$disgust_score)
@@ -283,6 +492,21 @@ avg_conscientiousness_08_v2016 <- mean(tone_2008_v2016$conscientiousness_score)
 avg_extraversion_08_v2016 <- mean(tone_2008_v2016$extraversion_score)
 avg_agreeableness_08_v2016 <- mean(tone_2008_v2016$agreeableness_score)
 avg_emotional_range_08_v2016 <- mean(tone_2008_v2016$emotional_range_score)
+
+# SD 2008 Tones
+sd_anger_08_v2016 <- sd(tone_2008_v2016$anger_score)
+sd_disgust_08_v2016 <- sd(tone_2008_v2016$disgust_score)
+sd_fear_08_v2016 <- sd(tone_2008_v2016$fear_score)
+sd_joy_08_v2016 <- sd(tone_2008_v2016$joy_score)
+sd_sadness_08_v2016 <- sd(tone_2008_v2016$sadness_score)
+sd_analytical_08_v2016 <- sd(tone_2008_v2016$analytical_score)
+sd_confident_08_v2016 <- sd(tone_2008_v2016$confident_score)
+sd_tentative_08_v2016 <- sd(tone_2008_v2016$tentative_score)
+sd_openness_08_v2016 <- sd(tone_2008_v2016$openness_score)
+sd_conscientiousness_08_v2016 <- sd(tone_2008_v2016$conscientiousness_score)
+sd_extraversion_08_v2016 <- sd(tone_2008_v2016$extraversion_score)
+sd_agreeableness_08_v2016 <- sd(tone_2008_v2016$agreeableness_score)
+sd_emotional_range_08_v2016 <- sd(tone_2008_v2016$emotional_range_score)
 
 # Average 2009 Tones
 avg_anger_09_v2016 <- mean(tone_2009_v2016$anger_score)
@@ -299,6 +523,21 @@ avg_extraversion_09_v2016 <- mean(tone_2009_v2016$extraversion_score)
 avg_agreeableness_09_v2016 <- mean(tone_2009_v2016$agreeableness_score)
 avg_emotional_range_09_v2016 <- mean(tone_2009_v2016$emotional_range_score)
 
+# SD 2009 Tones
+sd_anger_09_v2016 <- sd(tone_2009_v2016$anger_score)
+sd_disgust_09_v2016 <- sd(tone_2009_v2016$disgust_score)
+sd_fear_09_v2016 <- sd(tone_2009_v2016$fear_score)
+sd_joy_09_v2016 <- sd(tone_2009_v2016$joy_score)
+sd_sadness_09_v2016 <- sd(tone_2009_v2016$sadness_score)
+sd_analytical_09_v2016 <- sd(tone_2009_v2016$analytical_score)
+sd_confident_09_v2016 <- sd(tone_2009_v2016$confident_score)
+sd_tentative_09_v2016 <- sd(tone_2009_v2016$tentative_score)
+sd_openness_09_v2016 <- sd(tone_2009_v2016$openness_score)
+sd_conscientiousness_09_v2016 <- sd(tone_2009_v2016$conscientiousness_score)
+sd_extraversion_09_v2016 <- sd(tone_2009_v2016$extraversion_score)
+sd_agreeableness_09_v2016 <- sd(tone_2009_v2016$agreeableness_score)
+sd_emotional_range_09_v2016 <- sd(tone_2009_v2016$emotional_range_score)
+
 # Average 2010 Tones
 avg_anger_10_v2016 <- mean(tone_2010_v2016$anger_score)
 avg_disgust_10_v2016 <- mean(tone_2010_v2016$disgust_score)
@@ -313,6 +552,21 @@ avg_conscientiousness_10_v2016 <- mean(tone_2010_v2016$conscientiousness_score)
 avg_extraversion_10_v2016 <- mean(tone_2010_v2016$extraversion_score)
 avg_agreeableness_10_v2016 <- mean(tone_2010_v2016$agreeableness_score)
 avg_emotional_range_10_v2016 <- mean(tone_2010_v2016$emotional_range_score)
+
+# SD 2010 Tones
+sd_anger_10_v2016 <- sd(tone_2010_v2016$anger_score)
+sd_disgust_10_v2016 <- sd(tone_2010_v2016$disgust_score)
+sd_fear_10_v2016 <- sd(tone_2010_v2016$fear_score)
+sd_joy_10_v2016 <- sd(tone_2010_v2016$joy_score)
+sd_sadness_10_v2016 <- sd(tone_2010_v2016$sadness_score)
+sd_analytical_10_v2016 <- sd(tone_2010_v2016$analytical_score)
+sd_confident_10_v2016 <- sd(tone_2010_v2016$confident_score)
+sd_tentative_10_v2016 <- sd(tone_2010_v2016$tentative_score)
+sd_openness_10_v2016 <- sd(tone_2010_v2016$openness_score)
+sd_conscientiousness_10_v2016 <- sd(tone_2010_v2016$conscientiousness_score)
+sd_extraversion_10_v2016 <- sd(tone_2010_v2016$extraversion_score)
+sd_agreeableness_10_v2016 <- sd(tone_2010_v2016$agreeableness_score)
+sd_emotional_range_10_v2016 <- sd(tone_2010_v2016$emotional_range_score)
 
 # Average 2011 Tones
 avg_anger_11_v2016 <- mean(tone_2011_v2016$anger_score)
@@ -329,6 +583,21 @@ avg_extraversion_11_v2016 <- mean(tone_2011_v2016$extraversion_score)
 avg_agreeableness_11_v2016 <- mean(tone_2011_v2016$agreeableness_score)
 avg_emotional_range_11_v2016 <- mean(tone_2011_v2016$emotional_range_score)
 
+# SD 2011 Tones
+sd_anger_11_v2016 <- sd(tone_2011_v2016$anger_score)
+sd_disgust_11_v2016 <- sd(tone_2011_v2016$disgust_score)
+sd_fear_11_v2016 <- sd(tone_2011_v2016$fear_score)
+sd_joy_11_v2016 <- sd(tone_2011_v2016$joy_score)
+sd_sadness_11_v2016 <- sd(tone_2011_v2016$sadness_score)
+sd_analytical_11_v2016 <- sd(tone_2011_v2016$analytical_score)
+sd_confident_11_v2016 <- sd(tone_2011_v2016$confident_score)
+sd_tentative_11_v2016 <- sd(tone_2011_v2016$tentative_score)
+sd_openness_11_v2016 <- sd(tone_2011_v2016$openness_score)
+sd_conscientiousness_11_v2016 <- sd(tone_2011_v2016$conscientiousness_score)
+sd_extraversion_11_v2016 <- sd(tone_2011_v2016$extraversion_score)
+sd_agreeableness_11_v2016 <- sd(tone_2011_v2016$agreeableness_score)
+sd_emotional_range_11_v2016 <- sd(tone_2011_v2016$emotional_range_score)
+
 # Average 2012 Tones
 avg_anger_12_v2016 <- mean(tone_2012_v2016$anger_score)
 avg_disgust_12_v2016 <- mean(tone_2012_v2016$disgust_score)
@@ -343,6 +612,21 @@ avg_conscientiousness_12_v2016 <- mean(tone_2012_v2016$conscientiousness_score)
 avg_extraversion_12_v2016 <- mean(tone_2012_v2016$extraversion_score)
 avg_agreeableness_12_v2016 <- mean(tone_2012_v2016$agreeableness_score)
 avg_emotional_range_12_v2016 <- mean(tone_2012_v2016$emotional_range_score)
+
+# SD 2012 Tones
+sd_anger_12_v2016 <- sd(tone_2012_v2016$anger_score)
+sd_disgust_12_v2016 <- sd(tone_2012_v2016$disgust_score)
+sd_fear_12_v2016 <- sd(tone_2012_v2016$fear_score)
+sd_joy_12_v2016 <- sd(tone_2012_v2016$joy_score)
+sd_sadness_12_v2016 <- sd(tone_2012_v2016$sadness_score)
+sd_analytical_12_v2016 <- sd(tone_2012_v2016$analytical_score)
+sd_confident_12_v2016 <- sd(tone_2012_v2016$confident_score)
+sd_tentative_12_v2016 <- sd(tone_2012_v2016$tentative_score)
+sd_openness_12_v2016 <- sd(tone_2012_v2016$openness_score)
+sd_conscientiousness_12_v2016 <- sd(tone_2012_v2016$conscientiousness_score)
+sd_extraversion_12_v2016 <- sd(tone_2012_v2016$extraversion_score)
+sd_agreeableness_12_v2016 <- sd(tone_2012_v2016$agreeableness_score)
+sd_emotional_range_12_v2016 <- sd(tone_2012_v2016$emotional_range_score)
 
 # Average 2013 Tones
 avg_anger_13_v2016 <- mean(tone_2013_v2016$anger_score)
@@ -359,6 +643,21 @@ avg_extraversion_13_v2016 <- mean(tone_2013_v2016$extraversion_score)
 avg_agreeableness_13_v2016 <- mean(tone_2013_v2016$agreeableness_score)
 avg_emotional_range_13_v2016 <- mean(tone_2013_v2016$emotional_range_score)
 
+# SD 2013 Tones
+sd_anger_13_v2016 <- sd(tone_2013_v2016$anger_score)
+sd_disgust_13_v2016 <- sd(tone_2013_v2016$disgust_score)
+sd_fear_13_v2016 <- sd(tone_2013_v2016$fear_score)
+sd_joy_13_v2016 <- sd(tone_2013_v2016$joy_score)
+sd_sadness_13_v2016 <- sd(tone_2013_v2016$sadness_score)
+sd_analytical_13_v2016 <- sd(tone_2013_v2016$analytical_score)
+sd_confident_13_v2016 <- sd(tone_2013_v2016$confident_score)
+sd_tentative_13_v2016 <- sd(tone_2013_v2016$tentative_score)
+sd_openness_13_v2016 <- sd(tone_2013_v2016$openness_score)
+sd_conscientiousness_13_v2016 <- sd(tone_2013_v2016$conscientiousness_score)
+sd_extraversion_13_v2016 <- sd(tone_2013_v2016$extraversion_score)
+sd_agreeableness_13_v2016 <- sd(tone_2013_v2016$agreeableness_score)
+sd_emotional_range_13_v2016 <- sd(tone_2013_v2016$emotional_range_score)
+
 # Average 2014 Tones
 avg_anger_14_v2016 <- mean(tone_2014_v2016$anger_score)
 avg_disgust_14_v2016 <- mean(tone_2014_v2016$disgust_score)
@@ -373,6 +672,21 @@ avg_conscientiousness_14_v2016 <- mean(tone_2014_v2016$conscientiousness_score)
 avg_extraversion_14_v2016 <- mean(tone_2014_v2016$extraversion_score)
 avg_agreeableness_14_v2016 <- mean(tone_2014_v2016$agreeableness_score)
 avg_emotional_range_14_v2016 <- mean(tone_2014_v2016$emotional_range_score)
+
+# SD 2014 Tones
+sd_anger_14_v2016 <- sd(tone_2014_v2016$anger_score)
+sd_disgust_14_v2016 <- sd(tone_2014_v2016$disgust_score)
+sd_fear_14_v2016 <- sd(tone_2014_v2016$fear_score)
+sd_joy_14_v2016 <- sd(tone_2014_v2016$joy_score)
+sd_sadness_14_v2016 <- sd(tone_2014_v2016$sadness_score)
+sd_analytical_14_v2016 <- sd(tone_2014_v2016$analytical_score)
+sd_confident_14_v2016 <- sd(tone_2014_v2016$confident_score)
+sd_tentative_14_v2016 <- sd(tone_2014_v2016$tentative_score)
+sd_openness_14_v2016 <- sd(tone_2014_v2016$openness_score)
+sd_conscientiousness_14_v2016 <- sd(tone_2014_v2016$conscientiousness_score)
+sd_extraversion_14_v2016 <- sd(tone_2014_v2016$extraversion_score)
+sd_agreeableness_14_v2016 <- sd(tone_2014_v2016$agreeableness_score)
+sd_emotional_range_14_v2016 <- sd(tone_2014_v2016$emotional_range_score)
 
 # Average 2015 Tones
 avg_anger_15_v2016 <- mean(tone_2015_v2016$anger_score)
@@ -389,6 +703,21 @@ avg_extraversion_15_v2016 <- mean(tone_2015_v2016$extraversion_score)
 avg_agreeableness_15_v2016 <- mean(tone_2015_v2016$agreeableness_score)
 avg_emotional_range_15_v2016 <- mean(tone_2015_v2016$emotional_range_score)
 
+# SD 2015 Tones
+sd_anger_15_v2016 <- sd(tone_2015_v2016$anger_score)
+sd_disgust_15_v2016 <- sd(tone_2015_v2016$disgust_score)
+sd_fear_15_v2016 <- sd(tone_2015_v2016$fear_score)
+sd_joy_15_v2016 <- sd(tone_2015_v2016$joy_score)
+sd_sadness_15_v2016 <- sd(tone_2015_v2016$sadness_score)
+sd_analytical_15_v2016 <- sd(tone_2015_v2016$analytical_score)
+sd_confident_15_v2016 <- sd(tone_2015_v2016$confident_score)
+sd_tentative_15_v2016 <- sd(tone_2015_v2016$tentative_score)
+sd_openness_15_v2016 <- sd(tone_2015_v2016$openness_score)
+sd_conscientiousness_15_v2016 <- sd(tone_2015_v2016$conscientiousness_score)
+sd_extraversion_15_v2016 <- sd(tone_2015_v2016$extraversion_score)
+sd_agreeableness_15_v2016 <- sd(tone_2015_v2016$agreeableness_score)
+sd_emotional_range_15_v2016 <- sd(tone_2015_v2016$emotional_range_score)
+
 # Average 2016 Tones
 avg_anger_16_v2016 <- mean(tone_2016_v2016$anger_score)
 avg_disgust_16_v2016 <- mean(tone_2016_v2016$disgust_score)
@@ -403,6 +732,21 @@ avg_conscientiousness_16_v2016 <- mean(tone_2016_v2016$conscientiousness_score)
 avg_extraversion_16_v2016 <- mean(tone_2016_v2016$extraversion_score)
 avg_agreeableness_16_v2016 <- mean(tone_2016_v2016$agreeableness_score)
 avg_emotional_range_16_v2016 <- mean(tone_2016_v2016$emotional_range_score)
+
+# SD 2016 Tones
+sd_anger_16_v2016 <- sd(tone_2016_v2016$anger_score)
+sd_disgust_16_v2016 <- sd(tone_2016_v2016$disgust_score)
+sd_fear_16_v2016 <- sd(tone_2016_v2016$fear_score)
+sd_joy_16_v2016 <- sd(tone_2016_v2016$joy_score)
+sd_sadness_16_v2016 <- sd(tone_2016_v2016$sadness_score)
+sd_analytical_16_v2016 <- sd(tone_2016_v2016$analytical_score)
+sd_confident_16_v2016 <- sd(tone_2016_v2016$confident_score)
+sd_tentative_16_v2016 <- sd(tone_2016_v2016$tentative_score)
+sd_openness_16_v2016 <- sd(tone_2016_v2016$openness_score)
+sd_conscientiousness_16_v2016 <- sd(tone_2016_v2016$conscientiousness_score)
+sd_extraversion_16_v2016 <- sd(tone_2016_v2016$extraversion_score)
+sd_agreeableness_16_v2016 <- sd(tone_2016_v2016$agreeableness_score)
+sd_emotional_range_16_v2016 <- sd(tone_2016_v2016$emotional_range_score)
 
 # Average 2017 Tones
 avg_anger_17_v2016 <- mean(tone_2017_v2016$anger_score)
@@ -419,6 +763,21 @@ avg_extraversion_17_v2016 <- mean(tone_2017_v2016$extraversion_score)
 avg_agreeableness_17_v2016 <- mean(tone_2017_v2016$agreeableness_score)
 avg_emotional_range_17_v2016 <- mean(tone_2017_v2016$emotional_range_score)
 
+# SD 2017 Tones
+sd_anger_17_v2016 <- sd(tone_2017_v2016$anger_score)
+sd_disgust_17_v2016 <- sd(tone_2017_v2016$disgust_score)
+sd_fear_17_v2016 <- sd(tone_2017_v2016$fear_score)
+sd_joy_17_v2016 <- sd(tone_2017_v2016$joy_score)
+sd_sadness_17_v2016 <- sd(tone_2017_v2016$sadness_score)
+sd_analytical_17_v2016 <- sd(tone_2017_v2016$analytical_score)
+sd_confident_17_v2016 <- sd(tone_2017_v2016$confident_score)
+sd_tentative_17_v2016 <- sd(tone_2017_v2016$tentative_score)
+sd_openness_17_v2016 <- sd(tone_2017_v2016$openness_score)
+sd_conscientiousness_17_v2016 <- sd(tone_2017_v2016$conscientiousness_score)
+sd_extraversion_17_v2016 <- sd(tone_2017_v2016$extraversion_score)
+sd_agreeableness_17_v2016 <- sd(tone_2017_v2016$agreeableness_score)
+sd_emotional_range_17_v2016 <- sd(tone_2017_v2016$emotional_range_score)
+
 # Average 2018 Tones
 avg_anger_18_v2016 <- mean(tone_2018_v2016$anger_score)
 avg_disgust_18_v2016 <- mean(tone_2018_v2016$disgust_score)
@@ -433,6 +792,21 @@ avg_conscientiousness_18_v2016 <- mean(tone_2018_v2016$conscientiousness_score)
 avg_extraversion_18_v2016 <- mean(tone_2018_v2016$extraversion_score)
 avg_agreeableness_18_v2016 <- mean(tone_2018_v2016$agreeableness_score)
 avg_emotional_range_18_v2016 <- mean(tone_2018_v2016$emotional_range_score)
+
+# SD 2018 Tones
+sd_anger_18_v2016 <- sd(tone_2018_v2016$anger_score)
+sd_disgust_18_v2016 <- sd(tone_2018_v2016$disgust_score)
+sd_fear_18_v2016 <- sd(tone_2018_v2016$fear_score)
+sd_joy_18_v2016 <- sd(tone_2018_v2016$joy_score)
+sd_sadness_18_v2016 <- sd(tone_2018_v2016$sadness_score)
+sd_analytical_18_v2016 <- sd(tone_2018_v2016$analytical_score)
+sd_confident_18_v2016 <- sd(tone_2018_v2016$confident_score)
+sd_tentative_18_v2016 <- sd(tone_2018_v2016$tentative_score)
+sd_openness_18_v2016 <- sd(tone_2018_v2016$openness_score)
+sd_conscientiousness_18_v2016 <- sd(tone_2018_v2016$conscientiousness_score)
+sd_extraversion_18_v2016 <- sd(tone_2018_v2016$extraversion_score)
+sd_agreeableness_18_v2016 <- sd(tone_2018_v2016$agreeableness_score)
+sd_emotional_range_18_v2016 <- sd(tone_2018_v2016$emotional_range_score)
 
 # Average 2019 Tones
 avg_anger_19_v2016 <- mean(tone_2019_v2016$anger_score)
@@ -449,6 +823,21 @@ avg_extraversion_19_v2016 <- mean(tone_2019_v2016$extraversion_score)
 avg_agreeableness_19_v2016 <- mean(tone_2019_v2016$agreeableness_score)
 avg_emotional_range_19_v2016 <- mean(tone_2019_v2016$emotional_range_score)
 
+# SD 2019 Tones
+sd_anger_19_v2016 <- sd(tone_2019_v2016$anger_score)
+sd_disgust_19_v2016 <- sd(tone_2019_v2016$disgust_score)
+sd_fear_19_v2016 <- sd(tone_2019_v2016$fear_score)
+sd_joy_19_v2016 <- sd(tone_2019_v2016$joy_score)
+sd_sadness_19_v2016 <- sd(tone_2019_v2016$sadness_score)
+sd_analytical_19_v2016 <- sd(tone_2019_v2016$analytical_score)
+sd_confident_19_v2016 <- sd(tone_2019_v2016$confident_score)
+sd_tentative_19_v2016 <- sd(tone_2019_v2016$tentative_score)
+sd_openness_19_v2016 <- sd(tone_2019_v2016$openness_score)
+sd_conscientiousness_19_v2016 <- sd(tone_2019_v2016$conscientiousness_score)
+sd_extraversion_19_v2016 <- sd(tone_2019_v2016$extraversion_score)
+sd_agreeableness_19_v2016 <- sd(tone_2019_v2016$agreeableness_score)
+sd_emotional_range_19_v2016 <- sd(tone_2019_v2016$emotional_range_score)
+
 # Get the final dataframes for each tone
 year <- c(1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019)
 
@@ -458,14 +847,24 @@ score <- c(avg_anger_94_v2016, avg_anger_95_v2016, avg_anger_96_v2016, avg_anger
            avg_anger_08_v2016, avg_anger_09_v2016, avg_anger_10_v2016, avg_anger_11_v2016, avg_anger_12_v2016, avg_anger_13_v2016, avg_anger_14_v2016,
            avg_anger_15_v2016, avg_anger_16_v2016, avg_anger_17_v2016, avg_anger_18_v2016, avg_anger_19_v2016)
 
-total_anger_v2016 <- data.frame(score, year)
+sd <- c(sd_anger_94_v2016, sd_anger_95_v2016, sd_anger_96_v2016, sd_anger_97_v2016, sd_anger_98_v2016, sd_anger_99_v2016, sd_anger_00_v2016,
+           sd_anger_01_v2016, sd_anger_02_v2016, sd_anger_03_v2016, sd_anger_04_v2016, sd_anger_05_v2016, sd_anger_06_v2016, sd_anger_07_v2016,
+           sd_anger_08_v2016, sd_anger_09_v2016, sd_anger_10_v2016, sd_anger_11_v2016, sd_anger_12_v2016, sd_anger_13_v2016, sd_anger_14_v2016,
+           sd_anger_15_v2016, sd_anger_16_v2016, sd_anger_17_v2016, sd_anger_18_v2016, sd_anger_19_v2016)
+
+total_anger_v2016 <- data.frame(score, year, sd)
+
+limits <- aes(ymax = score + sd, ymin = score - sd)
 
 total_anger_v2016 %>% ggplot(aes(x = year, y = score)) +
-  geom_point() +
+  geom_point(colour = "steelblue3") +
+  geom_errorbar(limits, width=.2,
+                position=position_dodge(0.05), color ="steelblue3") +
   stat_smooth(method = "lm",
               col = "#C42126",
               se = FALSE,
               size = 1) +
+  geom_line(color="steelblue3")+
   ggtitle("Anger (v2016)")
 
 # Disgust
@@ -474,14 +873,24 @@ score <- c(avg_disgust_94_v2016, avg_disgust_95_v2016, avg_disgust_96_v2016, avg
            avg_disgust_08_v2016, avg_disgust_09_v2016, avg_disgust_10_v2016, avg_disgust_11_v2016, avg_disgust_12_v2016, avg_disgust_13_v2016, avg_disgust_14_v2016,
            avg_disgust_15_v2016, avg_disgust_16_v2016, avg_disgust_17_v2016, avg_disgust_18_v2016, avg_disgust_19_v2016)
 
-total_disgust_v2016 <- data.frame(score, year)
+sd <- c(sd_disgust_94_v2016, sd_disgust_95_v2016, sd_disgust_96_v2016, sd_disgust_97_v2016, sd_disgust_98_v2016, sd_disgust_99_v2016, sd_disgust_00_v2016,
+           sd_disgust_01_v2016, sd_disgust_02_v2016, sd_disgust_03_v2016, sd_disgust_04_v2016, sd_disgust_05_v2016, sd_disgust_06_v2016, sd_disgust_07_v2016,
+           sd_disgust_08_v2016, sd_disgust_09_v2016, sd_disgust_10_v2016, sd_disgust_11_v2016, sd_disgust_12_v2016, sd_disgust_13_v2016, sd_disgust_14_v2016,
+           sd_disgust_15_v2016, sd_disgust_16_v2016, sd_disgust_17_v2016, sd_disgust_18_v2016, sd_disgust_19_v2016)
+
+total_disgust_v2016 <- data.frame(score, year, sd)
+
+limits <- aes(ymax = score + sd, ymin = score - sd)
 
 total_disgust_v2016 %>% ggplot(aes(x = year, y = score)) +
-  geom_point() +
+  geom_point(colour = "steelblue3") +
+  geom_errorbar(limits, width=.2,
+                position=position_dodge(0.05), color ="steelblue3") +
   stat_smooth(method = "lm",
               col = "#C42126",
               se = FALSE,
               size = 1) +
+  geom_line(color="steelblue3")+
   ggtitle("disgust (v2016)")
 
 
@@ -491,14 +900,24 @@ score <- c(avg_fear_94_v2016, avg_fear_95_v2016, avg_fear_96_v2016, avg_fear_97_
            avg_fear_08_v2016, avg_fear_09_v2016, avg_fear_10_v2016, avg_fear_11_v2016, avg_fear_12_v2016, avg_fear_13_v2016, avg_fear_14_v2016, 
            avg_fear_15_v2016, avg_fear_16_v2016, avg_fear_17_v2016, avg_fear_18_v2016, avg_fear_19_v2016)
 
-total_fear_v2016 <- data.frame(score, year)
+sd <- c(sd_fear_94_v2016, sd_fear_95_v2016, sd_fear_96_v2016, sd_fear_97_v2016, sd_fear_98_v2016, sd_fear_99_v2016, sd_fear_00_v2016,
+           sd_fear_01_v2016, sd_fear_02_v2016, sd_fear_03_v2016, sd_fear_04_v2016, sd_fear_05_v2016, sd_fear_06_v2016, sd_fear_07_v2016,
+           sd_fear_08_v2016, sd_fear_09_v2016, sd_fear_10_v2016, sd_fear_11_v2016, sd_fear_12_v2016, sd_fear_13_v2016, sd_fear_14_v2016, 
+           sd_fear_15_v2016, sd_fear_16_v2016, sd_fear_17_v2016, sd_fear_18_v2016, sd_fear_19_v2016)
+
+total_fear_v2016 <- data.frame(score, year, sd)
+
+limits <- aes(ymax = score + sd, ymin = score - sd)
 
 total_fear_v2016 %>% ggplot(aes(x = year, y = score)) +
-  geom_point() +
+  geom_point(colour = "steelblue3") +
+  geom_errorbar(limits, width=.2,
+                position=position_dodge(0.05), color ="steelblue3") +
   stat_smooth(method = "lm",
               col = "#C42126",
               se = FALSE,
               size = 1) +
+  geom_line(color="steelblue3")+
   ggtitle("Fear (v2016)")
 
 # Joy
@@ -507,14 +926,24 @@ score <- c(avg_joy_94_v2016, avg_joy_95_v2016, avg_joy_96_v2016, avg_joy_97_v201
            avg_joy_08_v2016, avg_joy_09_v2016, avg_joy_10_v2016, avg_joy_11_v2016, avg_joy_12_v2016, avg_joy_13_v2016, avg_joy_14_v2016,
            avg_joy_15_v2016, avg_joy_16_v2016, avg_joy_17_v2016, avg_joy_18_v2016, avg_joy_19_v2016)
 
-total_joy_v2016 <- data.frame(score, year)
+sd <- c(sd_joy_94_v2016, sd_joy_95_v2016, sd_joy_96_v2016, sd_joy_97_v2016, sd_joy_98_v2016, sd_joy_99_v2016, sd_joy_00_v2016,
+           sd_joy_01_v2016, sd_joy_02_v2016, sd_joy_03_v2016, sd_joy_04_v2016, sd_joy_05_v2016, sd_joy_06_v2016, sd_joy_07_v2016,
+           sd_joy_08_v2016, sd_joy_09_v2016, sd_joy_10_v2016, sd_joy_11_v2016, sd_joy_12_v2016, sd_joy_13_v2016, sd_joy_14_v2016,
+           sd_joy_15_v2016, sd_joy_16_v2016, sd_joy_17_v2016, sd_joy_18_v2016, sd_joy_19_v2016)
+
+total_joy_v2016 <- data.frame(score, year, sd)
+
+limits <- aes(ymax = score + sd, ymin = score - sd)
 
 total_joy_v2016 %>% ggplot(aes(x = year, y = score)) +
-  geom_point() +
+  geom_point(colour = "steelblue3") +
+  geom_errorbar(limits, width=.2,
+                position=position_dodge(0.05), color ="steelblue3") +
   stat_smooth(method = "lm",
               col = "#C42126",
               se = FALSE,
               size = 1) +
+  geom_line(color="steelblue3")+
   ggtitle("Joy (v2016)")
 
 # Sadness
@@ -523,14 +952,24 @@ score <- c(avg_sadness_94_v2016, avg_sadness_95_v2016, avg_sadness_96_v2016, avg
            avg_sadness_08_v2016, avg_sadness_09_v2016, avg_sadness_10_v2016, avg_sadness_11_v2016, avg_sadness_12_v2016, avg_sadness_13_v2016, avg_sadness_14_v2016, 
            avg_sadness_15_v2016, avg_sadness_16_v2016, avg_sadness_17_v2016, avg_sadness_18_v2016, avg_sadness_19_v2016)
 
-total_sadness_v2016 <- data.frame(score, year)
+sd <- c(sd_sadness_94_v2016, sd_sadness_95_v2016, sd_sadness_96_v2016, sd_sadness_97_v2016, sd_sadness_98_v2016, sd_sadness_99_v2016, sd_sadness_00_v2016,
+           sd_sadness_01_v2016, sd_sadness_02_v2016, sd_sadness_03_v2016, sd_sadness_04_v2016, sd_sadness_05_v2016, sd_sadness_06_v2016, sd_sadness_07_v2016,
+           sd_sadness_08_v2016, sd_sadness_09_v2016, sd_sadness_10_v2016, sd_sadness_11_v2016, sd_sadness_12_v2016, sd_sadness_13_v2016, sd_sadness_14_v2016, 
+           sd_sadness_15_v2016, sd_sadness_16_v2016, sd_sadness_17_v2016, sd_sadness_18_v2016, sd_sadness_19_v2016)
+
+total_sadness_v2016 <- data.frame(score, year, sd)
+
+limits <- aes(ymax = score + sd, ymin = score - sd)
 
 total_sadness_v2016 %>% ggplot(aes(x = year, y = score)) +
-  geom_point() +
+  geom_point(colour = "steelblue3") +
+  geom_errorbar(limits, width=.2,
+                position=position_dodge(0.05), color ="steelblue3") +
   stat_smooth(method = "lm",
               col = "#C42126",
               se = FALSE,
               size = 1) +
+  geom_line(color="steelblue3")+
   ggtitle("Sadness (v2016)")
 
 # Analytical
@@ -539,14 +978,24 @@ score <- c(avg_analytical_94_v2016, avg_analytical_95_v2016, avg_analytical_96_v
            avg_analytical_08_v2016, avg_analytical_09_v2016, avg_analytical_10_v2016, avg_analytical_11_v2016, avg_analytical_12_v2016, avg_analytical_13_v2016, avg_analytical_14_v2016,
            avg_analytical_15_v2016, avg_analytical_16_v2016, avg_analytical_17_v2016, avg_analytical_18_v2016, avg_analytical_19_v2016)
 
-total_analytical_v2016 <- data.frame(score, year)
+sd <- c(sd_analytical_94_v2016, sd_analytical_95_v2016, sd_analytical_96_v2016, sd_analytical_97_v2016, sd_analytical_98_v2016, sd_analytical_99_v2016, sd_analytical_00_v2016,
+           sd_analytical_01_v2016, sd_analytical_02_v2016, sd_analytical_03_v2016, sd_analytical_04_v2016, sd_analytical_05_v2016, sd_analytical_06_v2016, sd_analytical_07_v2016, 
+           sd_analytical_08_v2016, sd_analytical_09_v2016, sd_analytical_10_v2016, sd_analytical_11_v2016, sd_analytical_12_v2016, sd_analytical_13_v2016, sd_analytical_14_v2016,
+           sd_analytical_15_v2016, sd_analytical_16_v2016, sd_analytical_17_v2016, sd_analytical_18_v2016, sd_analytical_19_v2016)
+
+total_analytical_v2016 <- data.frame(score, year, sd)
+
+limits <- aes(ymax = score + sd, ymin = score - sd)
 
 total_analytical_v2016 %>% ggplot(aes(x = year, y = score)) +
-  geom_point() +
+  geom_point(colour = "steelblue3") +
+  geom_errorbar(limits, width=.2,
+                position=position_dodge(0.05), color ="steelblue3") +
   stat_smooth(method = "lm",
               col = "#C42126",
               se = FALSE,
               size = 1) +
+  geom_line(color="steelblue3")+
   ggtitle("Analytical (v2016)")
 
 # Confident
@@ -555,14 +1004,24 @@ score <- c(avg_confident_94_v2016, avg_confident_95_v2016, avg_confident_96_v201
            avg_confident_08_v2016, avg_confident_09_v2016, avg_confident_10_v2016, avg_confident_11_v2016, avg_confident_12_v2016, avg_confident_13_v2016, avg_confident_14_v2016,
            avg_confident_15_v2016, avg_confident_16_v2016, avg_confident_17_v2016, avg_confident_18_v2016, avg_confident_19_v2016)
 
-total_confident_v2016 <- data.frame(score, year)
+sd <- c(sd_confident_94_v2016, sd_confident_95_v2016, sd_confident_96_v2016, sd_confident_97_v2016, sd_confident_98_v2016, sd_confident_99_v2016, sd_confident_00_v2016,
+           sd_confident_01_v2016, sd_confident_02_v2016, sd_confident_03_v2016, sd_confident_04_v2016, sd_confident_05_v2016, sd_confident_06_v2016, sd_confident_07_v2016,
+           sd_confident_08_v2016, sd_confident_09_v2016, sd_confident_10_v2016, sd_confident_11_v2016, sd_confident_12_v2016, sd_confident_13_v2016, sd_confident_14_v2016,
+           sd_confident_15_v2016, sd_confident_16_v2016, sd_confident_17_v2016, sd_confident_18_v2016, sd_confident_19_v2016)
+
+total_confident_v2016 <- data.frame(score, year, sd)
+
+limits <- aes(ymax = score + sd, ymin = score - sd)
 
 total_confident_v2016 %>% ggplot(aes(x = year, y = score)) +
-  geom_point() +
+  geom_point(colour = "steelblue3") +
+  geom_errorbar(limits, width=.2,
+                position=position_dodge(0.05), color ="steelblue3") +
   stat_smooth(method = "lm",
               col = "#C42126",
               se = FALSE,
               size = 1) +
+  geom_line(color="steelblue3")+
   ggtitle("Confident (v2016)")
 
 # Tentative
@@ -571,14 +1030,24 @@ score <- c(avg_tentative_94_v2016, avg_tentative_95_v2016, avg_tentative_96_v201
            avg_tentative_08_v2016, avg_tentative_09_v2016, avg_tentative_10_v2016, avg_tentative_11_v2016, avg_tentative_12_v2016, avg_tentative_13_v2016, avg_tentative_14_v2016,
            avg_tentative_15_v2016, avg_tentative_16_v2016, avg_tentative_17_v2016, avg_tentative_18_v2016, avg_tentative_19_v2016)
 
-total_tentative_v2016 <- data.frame(score, year)
+sd <- c(sd_tentative_94_v2016, sd_tentative_95_v2016, sd_tentative_96_v2016, sd_tentative_97_v2016, sd_tentative_98_v2016, sd_tentative_99_v2016, sd_tentative_00_v2016,
+           sd_tentative_01_v2016, sd_tentative_02_v2016, sd_tentative_03_v2016, sd_tentative_04_v2016, sd_tentative_05_v2016, sd_tentative_06_v2016, sd_tentative_07_v2016,
+           sd_tentative_08_v2016, sd_tentative_09_v2016, sd_tentative_10_v2016, sd_tentative_11_v2016, sd_tentative_12_v2016, sd_tentative_13_v2016, sd_tentative_14_v2016,
+           sd_tentative_15_v2016, sd_tentative_16_v2016, sd_tentative_17_v2016, sd_tentative_18_v2016, sd_tentative_19_v2016)
+
+total_tentative_v2016 <- data.frame(score, year, sd)
+
+limits <- aes(ymax = score + sd, ymin = score - sd)
 
 total_tentative_v2016 %>% ggplot(aes(x = year, y = score)) +
-  geom_point() +
+  geom_point(colour = "steelblue3") +
+  geom_errorbar(limits, width=.2,
+                position=position_dodge(0.05), color ="steelblue3") +
   stat_smooth(method = "lm",
               col = "#C42126",
               se = FALSE,
               size = 1) +
+  geom_line(color="steelblue3")+
   ggtitle("Tentative (v2016)")
 
 # Significance tests

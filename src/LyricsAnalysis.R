@@ -115,7 +115,7 @@ afinn_94 <- word_count %>% inner_join(get_sentiments("afinn")) %>% group_by(inde
 bing_and_nrc_94 <- bind_rows(word_count %>% 
                             inner_join(get_sentiments("bing")) %>%
                             mutate(method = "Bing et al."),
-                          word_count %>% 
+                            word_count %>% 
                             inner_join(get_sentiments("nrc") %>% 
                                          filter(sentiment %in% c("positive", 
                                                                  "negative"))) %>%
@@ -984,22 +984,43 @@ total_nrc$year <- c(1994,1995,1996,1997,1998,1999,2000,2001,2002,2003,2004,2005,
 
 # Simple visualizations
 
-total_afinn %>% ggplot(aes(x= year, y = sentiment)) + geom_point() + geom_smooth(method = "lm") + ggtitle("Afinn Sentiment")
+total_afinn %>% ggplot(aes(x = year, y = sentiment)) + 
+  geom_point(colour = "steelblue3") +
+  stat_smooth(method = "lm",
+              col = "#C42126",
+              se = FALSE,
+              size = 1) +
+  geom_line(color="steelblue3") +
+  ggtitle("Afinn Sentiment")
 
-total_bing %>% ggplot(aes(year, sentiment)) +  geom_point() + geom_smooth(method = "lm") + ggtitle("Bing Sentiment")
+total_bing %>% ggplot(aes(x = year, y = sentiment)) + 
+  geom_point(colour = "steelblue3") +
+  stat_smooth(method = "lm",
+              col = "#C42126",
+              se = FALSE,
+              size = 1) +
+  geom_line(color="steelblue3") +
+  ggtitle("Bing Sentiment")
 
-total_nrc %>% ggplot(aes(year, sentiment)) +  geom_point() + geom_smooth(method = "lm") + ggtitle("NRC Sentiment")
+total_nrc %>% ggplot(aes(x = year, y = sentiment)) + 
+  geom_point(colour = "steelblue3") +
+  stat_smooth(method = "lm",
+              col = "#C42126",
+              se = FALSE,
+              size = 1) +
+  geom_line(color="steelblue3") +
+  ggtitle("NRC Sentiment")
 
 # Significance test
 
 afinn_sig <- lm(data = total_afinn, sentiment ~ year)
-summary(afinn_sig) # p-value of 0.005, significant!
+summary(afinn_sig) # p-value of 0.019, significant
 
 bing_sig <- lm(data = total_bing, sentiment ~ year)
-summary(bing_sig) # p-value of 0.004, significant!
+summary(bing_sig) # p-value of 0.007, significant
 
 nrc_sig <- lm(data = total_nrc, sentiment ~ year)
-summary(nrc_sig) # p-value of 0.366, Not significant
+summary(nrc_sig) # p-value of 0.6569, Not significant
 
 # Due to NRC having fewer negative words than Bing (NRC: negative 3324, positive 2312) (Bing: negative 4781, positive 2005)
 
