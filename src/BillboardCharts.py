@@ -7,17 +7,17 @@ from dateutil.parser import parse
 find matches, and retrieve the rankings. """
 
 # ChartData(name, date=None, fetch=True, timeout=25)
-# name = billboard-200, date = 1994 to 2019 (YYYY-MM-DD)
+# name = billboard-200, date = Upper date (YYYY-MM-DD)
 # test dates = 10/31/2016, 7/2/2011
 chart = billboard.ChartData(
     'billboard-200', date='1995-01-01', fetch=True, timeout=25)
-#print(chart)
 x = 0
 all_charts = []
 
 # all weeks from 2019 to 1994 (52 x 25) = 1300
 # Need to run this a couple of years at a time so it doesnt timeout
 
+# chart.date is lower date
 while chart.date >= '1994-01-01':
     chart_list = []
     chart_title = []
@@ -75,19 +75,10 @@ with open(lyrics, 'r') as lyrics_json:
 data_list = list(zip(album_list, artist_list))
 data_list = list(set(data_list))
 
-# print(data_dict)
-# print()
-# Matches albums in from charts to albums being evaluated
+# Function that returns whether the string can be interpreted as a date.
 
-# all_charts = List of lists -> list (week) ->
-# -> Entry of list (138, 'California', 'Blink-182') -> Element of entry
-# Need second two Elements of Entry to Compare, then add that ENTRY
-"""
-Function that returns whether the string can be interpreted as a date.
-
-:param string: str, string to check for date
-:param fuzzy: bool, ignore unknown tokens in string if True
-"""
+# :param string: str, string to check for date
+# :param fuzzy: bool, ignore unknown tokens in string if True
 
 
 def is_date(string, fuzzy=False):

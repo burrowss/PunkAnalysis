@@ -11,7 +11,8 @@ library(dplyr)
 library(readr)
 
 # Reading in all_tone_data.csv to create a dataframe
-all_tone_v2016 <- read_csv("~/Documents/CS_600/PunkAnalysis/src/tone_resources/all_tone_data_v2016.csv")
+# Choose PunkAnalysis/src/tone_resources/all_tone_data_v2016.csv
+all_tone_v2016 <- read_csv(file.choose())
 all_tone_v2016 <- data.frame(all_tone_v2016)
 all_tone_v2016 <- all_tone_v2016 %>% rename(anger_score = "document_tone.tone_categories.0.tones.0.score",
                                             disgust_score = "document_tone.tone_categories.0.tones.1.score",
@@ -865,7 +866,7 @@ total_anger_v2016 %>% ggplot(aes(x = year, y = score)) +
               se = FALSE,
               size = 1) +
   geom_line(color="steelblue3")+
-  ggtitle("Anger (v2016)")
+  ggtitle("Anger")
 
 # Disgust
 score <- c(avg_disgust_94_v2016, avg_disgust_95_v2016, avg_disgust_96_v2016, avg_disgust_97_v2016, avg_disgust_98_v2016, avg_disgust_99_v2016, avg_disgust_00_v2016,
@@ -891,7 +892,7 @@ total_disgust_v2016 %>% ggplot(aes(x = year, y = score)) +
               se = FALSE,
               size = 1) +
   geom_line(color="steelblue3")+
-  ggtitle("disgust (v2016)")
+  ggtitle("Disgust")
 
 
 # Fear
@@ -918,7 +919,7 @@ total_fear_v2016 %>% ggplot(aes(x = year, y = score)) +
               se = FALSE,
               size = 1) +
   geom_line(color="steelblue3")+
-  ggtitle("Fear (v2016)")
+  ggtitle("Fear")
 
 # Joy
 score <- c(avg_joy_94_v2016, avg_joy_95_v2016, avg_joy_96_v2016, avg_joy_97_v2016, avg_joy_98_v2016, avg_joy_99_v2016, avg_joy_00_v2016,
@@ -944,7 +945,7 @@ total_joy_v2016 %>% ggplot(aes(x = year, y = score)) +
               se = FALSE,
               size = 1) +
   geom_line(color="steelblue3")+
-  ggtitle("Joy (v2016)")
+  ggtitle("Joy")
 
 # Sadness
 score <- c(avg_sadness_94_v2016, avg_sadness_95_v2016, avg_sadness_96_v2016, avg_sadness_97_v2016, avg_sadness_98_v2016, avg_sadness_99_v2016, avg_sadness_00_v2016,
@@ -970,7 +971,7 @@ total_sadness_v2016 %>% ggplot(aes(x = year, y = score)) +
               se = FALSE,
               size = 1) +
   geom_line(color="steelblue3")+
-  ggtitle("Sadness (v2016)")
+  ggtitle("Sadness")
 
 # Analytical
 score <- c(avg_analytical_94_v2016, avg_analytical_95_v2016, avg_analytical_96_v2016, avg_analytical_97_v2016, avg_analytical_98_v2016, avg_analytical_99_v2016, avg_analytical_00_v2016,
@@ -996,9 +997,9 @@ total_analytical_v2016 %>% ggplot(aes(x = year, y = score)) +
               se = FALSE,
               size = 1) +
   geom_line(color="steelblue3")+
-  ggtitle("Analytical (v2016)")
+  ggtitle("Analytical")
 
-# Confident
+# Confidence
 score <- c(avg_confident_94_v2016, avg_confident_95_v2016, avg_confident_96_v2016, avg_confident_97_v2016, avg_confident_98_v2016, avg_confident_99_v2016, avg_confident_00_v2016,
            avg_confident_01_v2016, avg_confident_02_v2016, avg_confident_03_v2016, avg_confident_04_v2016, avg_confident_05_v2016, avg_confident_06_v2016, avg_confident_07_v2016,
            avg_confident_08_v2016, avg_confident_09_v2016, avg_confident_10_v2016, avg_confident_11_v2016, avg_confident_12_v2016, avg_confident_13_v2016, avg_confident_14_v2016,
@@ -1022,9 +1023,9 @@ total_confident_v2016 %>% ggplot(aes(x = year, y = score)) +
               se = FALSE,
               size = 1) +
   geom_line(color="steelblue3")+
-  ggtitle("Confident (v2016)")
+  ggtitle("Confidence")
 
-# Tentative
+# Tentativeness
 score <- c(avg_tentative_94_v2016, avg_tentative_95_v2016, avg_tentative_96_v2016, avg_tentative_97_v2016, avg_tentative_98_v2016, avg_tentative_99_v2016, avg_tentative_00_v2016,
            avg_tentative_01_v2016, avg_tentative_02_v2016, avg_tentative_03_v2016, avg_tentative_04_v2016, avg_tentative_05_v2016, avg_tentative_06_v2016, avg_tentative_07_v2016,
            avg_tentative_08_v2016, avg_tentative_09_v2016, avg_tentative_10_v2016, avg_tentative_11_v2016, avg_tentative_12_v2016, avg_tentative_13_v2016, avg_tentative_14_v2016,
@@ -1048,7 +1049,7 @@ total_tentative_v2016 %>% ggplot(aes(x = year, y = score)) +
               se = FALSE,
               size = 1) +
   geom_line(color="steelblue3")+
-  ggtitle("Tentative (v2016)")
+  ggtitle("Tentativeness")
 
 # Significance tests
 
@@ -1056,10 +1057,10 @@ anger_sig_v2016 <- lm(data = total_anger_v2016, score ~ year)
 summary(anger_sig_v2016) # p-value: 0.4988
 
 disgust_sig_v2016 <- lm(data = total_disgust_v2016, score ~ year)
-summary(disgust_sig_v2016) # p-value: 0.005833
+summary(disgust_sig_v2016) # p-value: 0.005833 sig
 
 fear_sig_v2016 <- lm(data = total_fear_v2016, score ~ year)
-summary(fear_sig_v2016) # p-value: 0.01596
+summary(fear_sig_v2016) # p-value: 0.01596 sig
 
 joy_sig_v2016 <- lm(data = total_joy_v2016, score ~ year)
 summary(joy_sig_v2016) # p-value: 0.6591

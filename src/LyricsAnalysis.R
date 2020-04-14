@@ -14,7 +14,8 @@ library(reshape2)
 library(wordcloud)
 
 # Reading in the CSVs to create dataframes
-all_songs <- read_csv("~/Documents/CS_600/PunkAnalysis/src/data/all_lyrics.csv")
+# Choose PunkAnalysis/src/data/all_lyrics.csv
+all_songs <- read_csv(file.choose())
 
 # Create dataframes for each year, get words from each year, run afinn on it, get average/count for each year, plot all 25 to show change
 # run nrc on it for emotional, compare to tonal?
@@ -1038,15 +1039,14 @@ stop_words <- get_stopwords()
 tidy_words <- tidy_words %>%
   anti_join(stop_words)
 
-word_count <- tidy_words %>%
-  count(word, sort = TRUE)
-
-bing_word_counts_early <- word_count %>%
-  inner_join(get_sentiments("bing"))
+bing_word_counts_early <- tidy_words %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  ungroup()
 
 bing_word_counts_early %>%
   group_by(sentiment) %>%
-  head(n = 12) %>%
+  top_n(10) %>%
   ungroup() %>%
   mutate(word = reorder(word, n)) %>%
   ggplot(aes(word, n, fill = sentiment)) +
@@ -1077,15 +1077,14 @@ stop_words <- get_stopwords()
 tidy_words <- tidy_words %>%
   anti_join(stop_words)
 
-word_count <- tidy_words %>%
-  count(word, sort = TRUE)
-
-bing_word_counts_late <- word_count %>%
-  inner_join(get_sentiments("bing"))
+bing_word_counts_late <- tidy_words %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(word, sentiment, sort = TRUE) %>%
+  ungroup()
 
 bing_word_counts_late %>%
   group_by(sentiment) %>%
-  head(n = 13) %>%
+  top_n(10) %>%
   ungroup() %>%
   mutate(word = reorder(word, n)) %>%
   ggplot(aes(word, n, fill = sentiment)) +
@@ -1098,7 +1097,7 @@ bing_word_counts_late %>%
 # Less frequency of top words, but more negative words overall: 974 vs 410
 bing_word_counts_late %>% count(sentiment, sort = TRUE)
 
-# Early word cloud
+# Late word cloud
 late_word_cloud <- bing_word_counts_late  %>%
   acast(word ~ sentiment, value.var = "n", fill = 0) %>%
   comparison.cloud(colors = c("gray20", "gray80"),

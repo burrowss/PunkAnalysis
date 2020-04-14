@@ -9,7 +9,8 @@ library(dplyr)
 library(readr)
 
 # Reading in all_tone_data.csv to create a dataframe
-all_tone <- read_csv("~/Documents/CS_600/PunkAnalysis/src/tone_resources/all_tone_data.csv")
+# Choose PunkAnalysis/src/tone_resources/all_tone_data.csv
+all_tone <- read_csv(file.choose())
 all_tone <- all_tone %>% rename(tone1_score = "document_tone/tones/0/score", tone1 = "document_tone/tones/0/tone_id", tone2_score = "document_tone/tones/1/score", tone2 = "document_tone/tones/1/tone_id", tone3_score = "document_tone/tones/2/score", tone3 = "document_tone/tones/2/tone_id", tone4_score = "document_tone/tones/3/score", tone4 = "document_tone/tones/3/tone_id", tone5_score = "document_tone/tones/4/score", tone5 = "document_tone/tones/4/tone_id")
 all_tone <- data.frame(all_tone)
 all_tone <- all_tone[c(T,T,F)]

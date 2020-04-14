@@ -9,9 +9,8 @@ library(dplyr)
 library(readr)
 
 # Reading in the CSVs to create dataframes
-all_songs <- read_csv("~/Documents/CS_600/PunkAnalysis/src/data/all_lyrics.csv")
-
-# Think about what to do for NAs, plot with 200 at bottom, going up to 1
+# Choose PunkAnalysis/src/data/all_lyrics.csv
+all_songs <- read_csv(file.choose())
 
 # Early songs
 
